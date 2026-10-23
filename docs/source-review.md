@@ -288,3 +288,101 @@ De zorgtoeslag-, partner-, inkomen- en terugbetalingsverdiepingen blijven geplan
 - Browser: desktop 1440 × 900 en mobiel 390 × 844 bekeken. De geldcategorie en langere huurtoeslagtekst blijven leesbaar in het bestaande template. Alle vier nieuwe artikelen mobiel via hun categorie geopend; Home/categoriebroodkruimels en teruglinks naar bestaande subcategorieankers gecontroleerd. Geen horizontale pagina-overloop; de metertabel past met 335 px binnen de mobiele inhoudsbreedte. De ontwikkelserver is herstart om nieuwe statische routeparameters in te lezen, zoals reeds in de README beschreven.
 
 Er zijn geen nieuwe dependencies of bezoekersfuncties toegevoegd. Alleen het label en de beschrijving van de bestaande toeslaggroep zijn verbreed. Geen publicatieblokkade bleef open; de aanvullende toeslagverdiepingen wachten op een volgende onderzoeks- en schrijfbatch.
+
+
+## Inventarisbatch 3 — toeslagencluster (23 oktober 2026)
+
+Vooraf zijn AGENTS.md, inventaris, contentplan, schema, categorieën en bestaande huurtoeslagtekst gelezen. De bestaande mappings zijn bevestigd: TOES-01 → `zorgtoeslag-controleren-en-aanvragen`, TOES-02 → `je-toetsingsinkomen-schatten`, TOES-03 → `toeslagpartner-en-medebewoners-begrijpen`, GW-06 → `veranderingen-doorgeven-voor-je-toeslagen`. Alle vier horen bij `geld-en-woonlasten` / `toeslagen`. Geen ID of primaire toewijzing gewijzigd.
+
+De onderstaande primaire pagina's zijn daadwerkelijk geopend en inhoudelijk gelezen op **23 oktober 2026**. De controle betreft de huidige tekst; het is geen automatische bewaking of individuele toeslagbeslissing. De voorwaarden voor verschillende jaren zijn onderscheiden. Er zijn geen grensbedragen gekopieerd en er is geen eigen calculator toegevoegd.
+
+### Zorgtoeslag controleren en aanvragen
+
+Slug `zorgtoeslag-controleren-en-aanvragen`; na de bovenstaande inhoudelijke controle gepubliceerd met `draft: false` en `reviewedAt: "2026-10-23"`.
+
+| Geopende primaire bron | Gecontroleerd onderwerp |
+| --- | --- |
+| [Dienst Toeslagen — Voorwaarden voor zorgtoeslag](https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/prive/toeslagen/zorgtoeslag/voorwaarden/) | Voorwaarden voor zorgtoeslag |
+| [Dienst Toeslagen — Welke zorgverzekering telt?](https://www.belastingdienst.nl/wps/wcm/connect/nl/zorgtoeslag/content/voor-welke-zorgverzekering-zorgtoeslag) | Welke zorgverzekering telt? |
+| [Dienst Toeslagen — Zorgtoeslag vanaf 18 jaar](https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/prive/toeslagen/zorgtoeslag/voorwaarden/ik-ben-meerderjarig) | Zorgtoeslag vanaf 18 jaar |
+| [Dienst Toeslagen — Inkomensgrenzen zorgtoeslag per jaar](https://www.belastingdienst.nl/wps/wcm/connect/nl/zorgtoeslag/content/maximaal-inkomen-voor-zorgtoeslag) | Inkomensgrenzen zorgtoeslag per jaar |
+| [Dienst Toeslagen — Vermogen en peildatum zorgtoeslag](https://www.belastingdienst.nl/wps/wcm/connect/nl/zorgtoeslag/content/maximaal-vermogen-zorgtoeslag) | Vermogen en peildatum zorgtoeslag |
+| [Dienst Toeslagen — Zorgtoeslag met een andere nationaliteit](https://www.belastingdienst.nl/wps/wcm/connect/nl/zorgtoeslag/content/zorgtoeslag-andere-nationaliteit) | Zorgtoeslag met een andere nationaliteit |
+| [Dienst Toeslagen — Zorgtoeslag aanvragen](https://www.belastingdienst.nl/wps/wcm/connect/nl/zorgtoeslag/content/hoe-moet-ik-zorgtoeslag-aanvragen) | Zorgtoeslag aanvragen |
+| [Dienst Toeslagen — Proefberekening toeslagen](https://www.belastingdienst.nl/wps/wcm/connect/nl/toeslagen/content/hulpmiddel-proefberekening-toeslagen) | Proefberekening toeslagen |
+| [Dienst Toeslagen — Aanvraagtermijnen per jaar](https://www.belastingdienst.nl/wps/wcm/connect/nl/toeslagen/content/tot-wanneer-kan-ik-toeslag-aanvragen) | Aanvraagtermijnen per jaar |
+| [Dienst Toeslagen — Hulp bij toeslagen regelen](https://www.belastingdienst.nl/wps/wcm/connect/nl/contact-met-dienst-toeslagen/content/kan-ik-hulp-krijgen-bij-het-regelen-van-mijn-toeslag) | Hulp bij toeslagen regelen |
+
+De algemene voorwaarden, basisverzekering versus aanvullende/andere verzekering, leeftijd en startmaand, inkomen, vermogen met peildatum en nationaliteit/verblijfsrecht zijn gecontroleerd. Wonen bij ouders en een ouder die de verzekering betaalt zijn onderscheiden van het zelf voldoen aan de voorwaarden. Bijzondere verzekerings- en buitenlandgevallen verwijzen naar hun officiële instructies. De actuele pagina's met inkomens- en vermogensgrenzen zijn gelezen; de lezer kiest zelf het juiste toeslagjaar. De gedateerde aanvraagdeadline voor 2025 (31 december 2026) is gecontroleerd als voorbeeld, zonder daarvan een universele regel te maken. Aanvraag via Mijn toeslagen, benodigde gegevens, bevestiging en verschil tussen proefberekening en aanvraag zijn gecontroleerd.
+
+### Je toetsingsinkomen schatten
+
+Slug `je-toetsingsinkomen-schatten`; na de bovenstaande inhoudelijke controle gepubliceerd met `draft: false` en `reviewedAt: "2026-10-23"`.
+
+| Geopende primaire bron | Gecontroleerd onderwerp |
+| --- | --- |
+| [Dienst Toeslagen — Welk inkomen telt mee?](https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/prive/toeslagen/hoe_werken_toeslagen/kan_ik_toeslag_krijgen/inkomen/inkomen) | Welk inkomen telt mee? |
+| [Dienst Toeslagen — Toetsingsinkomen berekenen](https://www.belastingdienst.nl/wps/wcm/connect/nl/toeslagen/content/wat-is-mijn-toetsingsinkomen) | Toetsingsinkomen berekenen |
+| [Dienst Toeslagen — Inkomen schatten en bijwerken](https://www.belastingdienst.nl/wps/wcm/connect/nl/toeslagen/content/hoe-zorg-ik-dat-jullie-mijn-toeslag-met-het-juiste-inkomen-berekenen) | Inkomen schatten en bijwerken |
+| [Dienst Toeslagen — Inkomsten en aftrekposten veranderen](https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/prive/toeslagen/hoe_werken_toeslagen/kan_ik_toeslag_krijgen/inkomen/waardoor-kan-mijn-toetsingsinkomen-veranderen) | Inkomsten en aftrekposten veranderen |
+| [Dienst Toeslagen — Inkomensgrenzen zorgtoeslag per jaar](https://www.belastingdienst.nl/wps/wcm/connect/nl/zorgtoeslag/content/maximaal-inkomen-voor-zorgtoeslag) | Inkomensgrenzen zorgtoeslag per jaar |
+| [Dienst Toeslagen — Deel van het jaar een partner of medebewoner](https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/prive/toeslagen/hoe_werken_toeslagen/kan_ik_toeslag_krijgen/inkomen/deel-van-het-jaar-een-toeslagpartner/deel-van-het-jaar-een-toeslagpartner-of-medebewoner) | Deel van het jaar een partner of medebewoner |
+
+Gecontroleerd: het hele kalenderjaar, verzamelinkomen bij aangifte versus belastbaar/fiscaal loon op de jaaropgaaf, voorbeelden van wel/niet meetellende inkomsten, vakantiegeld en veranderende inkomsten/aftrekposten. Loonstroken, jaaropgaven en gegevens per werk-/uitkeringsperiode zijn praktische voorbereiding voor de officiële inkomenshulp, geen eigen fiscale formule. Ook bij een deeljaar partner/medebewoner blijft het jaarinkomen de invoer; de meetellende periode is een andere vraag. Schatting bijwerken en de voorzichtig hogere schatting als officiële praktische suggestie zijn gecontroleerd, zonder garantie tegen terugbetalen. De inkomenshulp is ook in de browser geopend: jaarselectie beschikbaar; geen persoonlijke berekening uitgevoerd.
+
+### Toeslagpartner en medebewoners begrijpen
+
+Slug `toeslagpartner-en-medebewoners-begrijpen`; na de bovenstaande inhoudelijke controle gepubliceerd met `draft: false` en `reviewedAt: "2026-10-23"`.
+
+| Geopende primaire bron | Gecontroleerd onderwerp |
+| --- | --- |
+| [Dienst Toeslagen — Wie is toeslagpartner?](https://www.belastingdienst.nl/wps/wcm/connect/nl/toeslagen/content/toeslagpartner) | Wie is toeslagpartner? |
+| [Dienst Toeslagen — Vanaf wanneer toeslagpartners?](https://www.belastingdienst.nl/wps/wcm/connect/nl/toeslagen/content/vanaf-welk-moment-zijn-wij-toeslagpartners) | Vanaf wanneer toeslagpartners? |
+| [Dienst Toeslagen — Partner op een ander adres](https://www.belastingdienst.nl/wps/wcm/connect/nl/toeslagen/content/toeslagpartners-als-partner-op-ander-adres-woont) | Partner op een ander adres |
+| [Dienst Toeslagen — Medebewoners voor huurtoeslag](https://www.belastingdienst.nl/wps/wcm/connect/nl/huurtoeslag/content/wie-telt-als-medebewoner) | Medebewoners voor huurtoeslag |
+| [Dienst Toeslagen — Onderhuur beoordelen en doorgeven](https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/prive/toeslagen/wijzigingen_doorgeven/welke_wijzigingen_moet_ik_doorgeven/wonen/ik_krijg_een_onderhuurder/ik_krijg_een_onderhuurder) | Onderhuur beoordelen en doorgeven |
+| [Dienst Toeslagen — Trouwen en samenwonen](https://www.belastingdienst.nl/wps/wcm/connect/nl/toeslagen/content/ik-ga-trouwen-of-samenwonen-wat-verandert-er-voor-mijn-toeslag) | Trouwen en samenwonen |
+| [Dienst Toeslagen — Scheiden of uit elkaar gaan](https://www.belastingdienst.nl/wps/wcm/connect/nl/toeslagen/content/wij-gaan-uit-elkaar) | Scheiden of uit elkaar gaan |
+
+Gecontroleerd: huwelijk/geregistreerd partnerschap, aanvullende partnergronden bij hetzelfde adres, maximaal één partner en de verwijzing naar de officiële beslisvragen voor uitzonderingen. Medebewoners en onderhuur zijn afzonderlijk behandeld, met verschil tussen huur- en zorgtoeslag. Ouder/kind zijn vanaf 2025 geen toeslagpartners; oudere jaren zijn expliciet onderscheiden. Partner op een ander adres, ingangsmaand en scheiding hebben eigen voorwaarden. De voorbeelden bepalen geen individuele status. De onderhuurdefinitie, uitsluitingen en benodigde beoordeling zijn gecontroleerd; de feitelijke meldhandeling staat centraal in GW-06.
+
+### Veranderingen doorgeven voor je toeslagen
+
+Slug `veranderingen-doorgeven-voor-je-toeslagen`; na de bovenstaande inhoudelijke controle gepubliceerd met `draft: false` en `reviewedAt: "2026-10-23"`.
+
+| Geopende primaire bron | Gecontroleerd onderwerp |
+| --- | --- |
+| [Dienst Toeslagen — Wijzigingen en meldtermijn](https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/prive/toeslagen/wijzigingen_doorgeven/) | Wijzigingen en meldtermijn |
+| [Dienst Toeslagen — Welke wijzigingen doorgeven?](https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/prive/toeslagen/wijzigingen_doorgeven/welke_wijzigingen_moet_ik_doorgeven/) | Welke wijzigingen doorgeven? |
+| [Dienst Toeslagen — Wijziging doorgeven en ingangsdatum](https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/prive/toeslagen/wijzigingen_doorgeven/ik_wil_een_wijziging_doorgeven/) | Wijziging doorgeven en ingangsdatum |
+| [Dienst Toeslagen — Verhuizing en nieuwe huur](https://www.belastingdienst.nl/wps/wcm/connect/nl/toeslagen/content/moet-ik-mijn-verhuizing-doorgeven) | Verhuizing en nieuwe huur |
+| [Dienst Toeslagen — Inkomen schatten en bijwerken](https://www.belastingdienst.nl/wps/wcm/connect/nl/toeslagen/content/hoe-zorg-ik-dat-jullie-mijn-toeslag-met-het-juiste-inkomen-berekenen) | Inkomen schatten en bijwerken |
+| [Dienst Toeslagen — Trouwen en samenwonen](https://www.belastingdienst.nl/wps/wcm/connect/nl/toeslagen/content/ik-ga-trouwen-of-samenwonen-wat-verandert-er-voor-mijn-toeslag) | Trouwen en samenwonen |
+| [Dienst Toeslagen — Onderhuur beoordelen en doorgeven](https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/prive/toeslagen/wijzigingen_doorgeven/welke_wijzigingen_moet_ik_doorgeven/wonen/ik_krijg_een_onderhuurder/ik_krijg_een_onderhuurder) | Onderhuur beoordelen en doorgeven |
+| [Dienst Toeslagen — Wijzigen of stopzetten?](https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/prive/toeslagen/toeslag_stopzetten/ik-wil-mijn-toeslag-stopzetten) | Wijzigen of stopzetten? |
+| [Dienst Toeslagen — Na een wijziging](https://www.belastingdienst.nl/wps/wcm/connect/nl/toeslagen/content/wat-gebeurt-er-na-mijn-wijziging) | Na een wijziging |
+| [Dienst Toeslagen — Scheiden of uit elkaar gaan](https://www.belastingdienst.nl/wps/wcm/connect/nl/toeslagen/content/wij-gaan-uit-elkaar) | Scheiden of uit elkaar gaan |
+| [Dienst Toeslagen — Hulp bij toeslagen regelen](https://www.belastingdienst.nl/wps/wcm/connect/nl/contact-met-dienst-toeslagen/content/kan-ik-hulp-krijgen-bij-het-regelen-van-mijn-toeslag) | Hulp bij toeslagen regelen |
+
+Gecontroleerd: algemene meldtermijn van vier weken, overzicht van relevante wijzigingen, Mijn toeslagen/app en uitzonderingen voor oudere jaren/definitieve berekening. De gemeente geeft het adres door, maar de nieuwe huur moet bij lopende huurtoeslag afzonderlijk worden doorgegeven zodra het adres zichtbaar is. Inkomen vraagt een bijgewerkte jaarschatting. Samenwonen kent automatische gegevens én mogelijke aanvullende vragen. Onderhuur moet na inschrijving binnen vier weken telefonisch worden gemeld. Wijzigen wegens inkomen/vermogen is onderscheiden van zelf stopzetten. Ingangsdatum, maand/dagverschil per toeslag, nieuwe voorschotbeschikking en controle van de verwerking zijn gecontroleerd. De pagina verwijst bij scheiding en bijzondere situaties naar de passende officiële route; zij vervangt geen persoonlijke beoordeling.
+
+### Afbakening en voortgang
+
+De vier teksten hebben eigen vragen: aanvragen, jaarinkomen schatten, bepalen wie meetelt en veranderingen daadwerkelijk melden. Ze verwijzen naar elkaar en naar de bestaande huurtoeslaggids en officiële tools. In de huurtoeslaggids zijn uitsluitend contextlinks toegevoegd; de bestaande bronnen, metadata en inhoudelijke regels blijven behouden.
+
+GW-06 is nu voldoende beantwoord en telt mee als nieuw afgeronde oorspronkelijke vraag: **32/78 afgerond, 46 gepland of gedeeltelijk**. TOES-01, TOES-02 en TOES-03 zijn afgerond: **3/4 aanvullende vragen**. **TOES-04 blijft gepland en gedeeltelijk**; de korte uitleg over een voorschot is geen volledige gids voor definitieve berekening, correctie, terugbetalen of betalingsmogelijkheden. Geen conceptbestand of placeholderlink voor dat doel aangemaakt. Andere gedeeltelijke inventarisvragen, zoals AA-09 en AA-10, zijn niet door een korte vermelding afgerond.
+
+Er blijft geen specifieke verificatiekloof in deze vier gepubliceerde teksten. Uitzonderingen blijven naar primaire instructies verwijzen; informatie kan na de controledatum veranderen. De volgende aanbevolen batch is TOES-04, EWI-07 (water), GW-10 (rekeningen niet kunnen betalen) en HV-04 (brandveiligheid).
+
+### Validatie batch 3
+
+- `npm run lint`: geslaagd, exitcode 0.
+- `npm run typecheck`: geslaagd, exitcode 0.
+- `npm run build`: geslaagd, exitcode 0. De definitieve build na de mobiele tekstaanpassing genereert 29 pagina's inclusief frameworkvarianten: homepage, zeven categoriepagina's en achttien artikelroutes. De bestaande statische exportconfiguratie en routes zijn ongewijzigd.
+- Alle 82 primaire ID-toewijzingen zijn programmatisch vergeleken met de beginsituatie en gelijk gebleven: 78 oorspronkelijke en vier aanvullende vragen, samen 53 artikeldoelen. TOES-04 behoudt zijn geplande status en heeft geen bestand of placeholderlink.
+- Hashes van de dertien overige bestaande artikelen zijn gelijk gebleven. De huurtoeslagmetadata, inclusief bronnen, reviewedAt en draft, zijn exact behouden; de tekstdiff bevat alleen de vier contextkoppelingen.
+- Alle achttien artikelen zijn gepubliceerd met een controledatum; er zijn geen Markdown-concepten. Alle interne Markdown-artikellinks hebben een bestaand doel en alle externe bronlinks in de artikeltekst staan ook in de bronmetadata.
+- De HTML-export is gecontroleerd: alle 225 interne linkverwijzingen lossen op, inclusief ankers. Categorieplaatsing, broodkruimels, controledatums en teruglinks zijn voor alle achttien artikelen gecontroleerd. Toeslagen bevat vijf gepubliceerde artikelen op het bestaande anker. Onbekende categorieën krijgen geen gegenereerde route.
+- Browsercontrole: desktop 1440 × 900 en mobiel 390 × 844. De geldcategorie, lange partnertekst en zorgtoeslag zijn visueel bekeken; alle vier nieuwe artikelen zijn via de categorie geopend. De tabel met woonsituaties brak woorden onhandig af op mobiel en is vervangen door vier leesbare tekstpunten binnen hetzelfde template. Geen horizontale pagina-overloop (inhoud 375 px bij viewport 390 px).
+- De retourlink is in de browser gevolgd naar `/categorieen/geld-en-woonlasten/#toeslagen`. Ook de contextnavigatie wijzigingen → huurtoeslag → zorgtoeslag is doorlopen. De overige contextlinks en alle categoriebroodkruimels zijn in de export gecontroleerd.
+- Geen persoonlijke gegevens ingevoerd en geen daadwerkelijke toeslagaanvraag ingediend. De officiële tools zijn bron- en hulpmiddelverwijzingen; er is geen individuele berekening gevalideerd.

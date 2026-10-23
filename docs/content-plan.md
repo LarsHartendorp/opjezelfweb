@@ -26,9 +26,9 @@ Na deze batch staan **21 inputvragen op afgerond**: de bestaande 12 en 9 aanvull
 
 Deze batch voegt de vier reeds geplande artikelen toe, na vergelijking met de bestaande teksten over huurcontract, verhuisdag, rechten/plichten, energie en woonlasten. Die bestaande pagina's zijn geen volledige sleuteloverdracht-, heffingen-, aanvraag- of installatiegids en blijven onder hun bestaande URL's behouden.
 
-**Actuele stand oorspronkelijke inventaris:** alle 78 ID's behouden dezelfde primaire slugtoewijzing. De 49 oorspronkelijke artikeldoelen blijven bestaan. Deze batch rondt 10 extra oorspronkelijke vragen af: WH-02, WH-03; GW-02, GW-03, GW-04, GW-05; EWI-01, EWI-02, EWI-06, HV-01. Totaal **31 van 78 afgerond**, **47 gepland of gedeeltelijk**. Er zijn nu 14 gepubliceerde artikelen en geen Markdown-concepten. De eerste batch hierboven is historische verantwoording en is niet opnieuw uitgevoerd.
+**Stand na batch 2 — oorspronkelijke inventaris:** alle 78 ID's behouden dezelfde primaire slugtoewijzing. De 49 oorspronkelijke artikeldoelen blijven bestaan. Deze batch rondt 10 extra oorspronkelijke vragen af: WH-02, WH-03; GW-02, GW-03, GW-04, GW-05; EWI-01, EWI-02, EWI-06, HV-01. Totaal **31 van 78 afgerond**, **47 gepland of gedeeltelijk**. Er zijn nu 14 gepubliceerde artikelen en geen Markdown-concepten. De eerste batch hierboven is historische verantwoording en is niet opnieuw uitgevoerd.
 
-**Actuele stand aanvullende vragen:** vier nieuwe vragen, TOES-01 t/m TOES-04, bij vier aanvullende artikeldoelen. **0 van 4 afgerond**. De nieuwe huurtoeslaggids geeft basisuitleg over inkomen, bewoners en afrekening, maar is geen volledige gids voor die bredere toeslagvragen. Deze voortgang telt niet mee in de oorspronkelijke 78.
+**Stand na batch 2 — aanvullende vragen:** vier nieuwe vragen, TOES-01 t/m TOES-04, bij vier aanvullende artikeldoelen. **0 van 4 afgerond**. De nieuwe huurtoeslaggids geeft basisuitleg over inkomen, bewoners en afrekening, maar is geen volledige gids voor die bredere toeslagvragen. Deze voortgang telt niet mee in de oorspronkelijke 78.
 
 ### Toeslagvragen koppelen zonder dubbelingen
 
@@ -41,7 +41,7 @@ De bestaande subcategorie `toeslagen` onder `geld-en-woonlasten` heet voortaan *
 | Toetsingsinkomen begrijpen en jaarlijks schatten | TOES-02, nieuw | Algemene toeslagbasis; geen kopie van energievoorschotten of het woonbudget. |
 | Toeslagpartners en meetellende huishoudleden begrijpen | TOES-03, nieuw | Wie meetelt en vanaf wanneer; onderscheid partner en medebewoner. De wijziging daadwerkelijk melden hoort bij GW-06. |
 | Verhuizen, samenwonen of ander inkomen doorgeven | GW-06, bestaande doelslug | Geen nieuw ID. AA-09 blijft het bredere onderwerp samen op één adres wonen; de oorspronkelijke mapping verandert niet. |
-| Officiële toeslagenrekenhulp gebruiken | Onderdeel van GW-05; later ook TOES-01 | Geen extra ID of los dubbel rekenhulpartikel. Huurtoeslaggids behandelt jaar, gegevens, beperkingen en onderscheid berekening/aanvraag. |
+| Officiële toeslagenrekenhulp gebruiken | Onderdeel van GW-05 en TOES-01 | Geen extra ID of los dubbel rekenhulpartikel. Beide aanvraaggidsen behandelen jaar, gegevens, beperkingen en onderscheid berekening/aanvraag. |
 | Voorschotten, definitieve berekening en terugbetalen | TOES-04, nieuw | Toeslagbeschikkingen; EWI-04 blijft uitsluitend energievoorschotten en jaarafrekening. |
 
 ### Aanvullend register — Geld en woonlasten / Toeslagen
@@ -50,10 +50,30 @@ Dit is een afzonderlijk register naast de oorspronkelijke 78. Nieuwe ID's staan 
 
 | Subcategorie / anker | Doelslug en titel | Hoofdvraag | Input-ID's | Relatie | Prioriteit | Redactionele status | Dekking, gat of blokkade |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| `toeslagen` | `zorgtoeslag-controleren-en-aanvragen` — Zorgtoeslag controleren en aanvragen | Hoe controleer en vraag ik zorgtoeslag aan? | TOES-01 | Aanvullend, nieuw | P1 / volgende batch | Gepland | Eigen voorwaarden, Nederlandse zorgverzekering, uitzonderingen, jaar, calculator en aanvraag verifiëren; geen gepubliceerd artikel. |
-| `toeslagen` | `je-toetsingsinkomen-schatten` — Je toetsingsinkomen schatten | Welk jaarinkomen telt mee en hoe maak ik een schatting? | TOES-02 | Aanvullend, nieuw | P1 / volgende batch | Gepland; gedeeltelijke bestaande uitleg | Huurtoeslaggids definieert het begrip en verwijst naar de hulp. Volledige uitleg inkomensbestanddelen, wisselend werk en jaarovergang nog onderzoeken. |
-| `toeslagen` | `toeslagpartner-en-medebewoners-begrijpen` — Toeslagpartner en medebewoners begrijpen | Wie telt mee voor mijn toeslag en wanneer verandert dat? | TOES-03 | Aanvullend, nieuw | P1 / volgende batch | Gepland; gedeeltelijke bestaande uitleg | Basisbegrippen staan in huurtoeslag. Partnercriteria, uitzonderingen, ingangsdatums en verschillen tussen toeslagen nog uitwerken; verwijs voor meldstappen naar GW-06. |
+| `toeslagen` | `zorgtoeslag-controleren-en-aanvragen` — Zorgtoeslag controleren en aanvragen | Hoe controleer en vraag ik zorgtoeslag aan? | TOES-01 | Aanvullend, nieuw | P1 / batch 3 | Afgerond | Verzekering, leeftijd, inkomen/vermogen per jaar, bijzondere situaties, proefberekening en aanvraagroute uitgewerkt. Verwijst voor inkomens- en partneruitleg naar de clusterartikelen. |
+| `toeslagen` | `je-toetsingsinkomen-schatten` — Je toetsingsinkomen schatten | Welk jaarinkomen telt mee en hoe maak ik een schatting? | TOES-02 | Aanvullend, nieuw | P1 / batch 3 | Afgerond | Toetsingsinkomen, wel/niet meetellende inkomsten, gegevens per periode, officiële inkomenshulp, jaarovergang en bijwerken uitgewerkt. Geen eigen calculator of individuele fiscale berekening. |
+| `toeslagen` | `toeslagpartner-en-medebewoners-begrijpen` — Toeslagpartner en medebewoners begrijpen | Wie telt mee voor mijn toeslag en wanneer verandert dat? | TOES-03 | Aanvullend, nieuw | P1 / batch 3 | Afgerond | Partnercriteria, huisgenoten versus medebewoners, ouder/kind vanaf 2025, onderhuur, verschillende adressen en ingangsdatums uitgewerkt. Meldhandelingen verwijzen naar GW-06. |
 | `toeslagen` | `voorschot-definitieve-berekening-en-terugbetalen` — Je toeslagberekening en terugbetalen begrijpen | Hoe verschillen voorschot en definitieve berekening en wat doe ik bij terugbetalen? | TOES-04 | Aanvullend, nieuw | P1 | Gepland; gedeeltelijke bestaande uitleg | Huurtoeslaggids geeft basis en bronroute. Vergelijking beschikkingen, te veel/te weinig, correctie en betalingsmogelijkheden voor meerdere toeslagen nog controleren. |
+
+## Derde batch — samenhangende toeslagartikelen
+
+De exacte mappings zijn vóór bewerking bevestigd aan de hand van de inventaris en dit plan. Geen nieuw ID of doelslug toegevoegd: TOES-01 → `zorgtoeslag-controleren-en-aanvragen`; TOES-02 → `je-toetsingsinkomen-schatten`; TOES-03 → `toeslagpartner-en-medebewoners-begrijpen`; GW-06 → `veranderingen-doorgeven-voor-je-toeslagen`. Alle vier zijn na primaire broncontrole gepubliceerd in `geld-en-woonlasten` / `toeslagen`. Bestaande categorie-ID's, ankers en URL's zijn behouden.
+
+**Actuele voortgang oorspronkelijk:** **32 van 78 afgerond**, **46 gepland of gedeeltelijk**. Alleen GW-06 is deze batch nieuw afgerond binnen de oorspronkelijke inventaris. Alle oorspronkelijke primaire artikeltoewijzingen blijven gelijk.
+
+**Actuele voortgang aanvullend:** **3 van 4 afgerond** (TOES-01, TOES-02, TOES-03). **TOES-04 blijft gepland en gedeeltelijk**, op `voorschot-definitieve-berekening-en-terugbetalen`. De korte uitleg over voorschotten en controle na wijzigingen is geen volledige uitwerking van definitieve berekening, correctie of terugbetalen. Er is geen placeholderroute voor TOES-04.
+
+Er zijn nu **18 gepubliceerde artikelen**, zonder Markdown-concepten. De eerdere batchbeschrijvingen zijn historische verantwoording; de registratierijen hieronder tonen de huidige status.
+
+| Artikeldoel | Eigen lezersvraag en rol in de cluster |
+| --- | --- |
+| Zorgtoeslag controleren en aanvragen | Kan ik deze bijdrage krijgen en hoe vraag ik haar aan? Eigen verzekerings-/jaarvoorwaarden en aanvraagstappen. |
+| Je toetsingsinkomen schatten | Welk jaarinkomen moet ik gebruiken en hoe bereid ik een schatting voor? Centrale uitleg van inkomen en inkomenshulp. |
+| Toeslagpartner en medebewoners begrijpen | Wie telt mee en vanaf wanneer? Centrale uitleg van relaties, woonvormen en bewoners. |
+| Veranderingen doorgeven voor je toeslagen | Wat doe ik als mijn situatie verandert? Centrale meldroutes, gemeente versus eigen actie en controle. |
+| Bestaande huurtoeslaggids | Behoud van GW-05 en de aanvraag-/calculatoruitleg; vier contextlinks naar de nieuwe artikelen toegevoegd. |
+
+De artikelen verwijzen naar elkaar waar uitleg nodig is, zonder complete inkomens-, partner- of wijzigingsgidsen te herhalen. Er is geen websitecalculator toegevoegd; berekeningen blijven bij de officiële tools. Grenzen en procedures worden per jaar gecontroleerd. Zie de broncontrole voor gelezen pagina's en publicatieafweging.
 
 ## Woning en huurcontract
 
@@ -76,7 +96,7 @@ Categorie-id en URL-slug: `geld-en-woonlasten`.
 | `woonkosten` | `je-woonlasten-op-een-rij` — Je woonlasten op een rij | Welke kosten en reserves horen bij sociale huur of een kamer? | USER-03, WH-01, GW-01, GW-08, EWI-04 | Bestaand, uitgebreid; samengevoegd | P1 / batch 1 | Afgerond | Sociale-huurfocus ontbrak eerst. Nu ook lokale heffingen als kostenpost, betaalmomenten en onverwachte reserve. Geen vaste normprijzen. |
 | `woonkosten` | `lokale-belastingen-en-kwijtschelding` — Lokale belastingen en kwijtschelding onderzoeken | Welke aanslagen krijg ik en hoe onderzoek ik vermindering? | GW-02, GW-03, GW-04 | Nieuw, samengevoegd | P1 / batch 2 | Afgerond | Gemeente- en waterschapsheffingen, huurders/eigenaren, lokale navraag bij kamerhuur en kwijtschelding bij juiste uitvoerder uitgewerkt. Geen landelijke tarieven of toekenning beloofd. |
 | `toeslagen` | `huurtoeslag-bij-een-kamer-of-zelfstandige-woning` — Huurtoeslag bij een kamer of zelfstandige woning | Hoe controleer ik of ik huurtoeslag kan aanvragen? | GW-05 | Nieuw | P1 / batch 2 | Afgerond | Voorwaarden, woonvorm, toeslagjaar, officiële proefberekening en aanvraag in Mijn toeslagen uitgewerkt. Geen individueel toeslagrecht vastgesteld; calculator is onderdeel van dit doel, geen dubbel artikel. |
-| `toeslagen` | `veranderingen-doorgeven-voor-je-toeslagen` — Veranderingen doorgeven voor je toeslagen | Welke veranderingen geef ik zelf door? | GW-06 | Gepland | P1 / volgende batch | Gepland; gedeeltelijke bestaande uitleg | GW-06 hergebruikt voor verhuizen, samenwonen en inkomenswijziging bij alle relevante toeslagen. Huurtoeslagartikel behandelt adres/huur en verwijst naar inkomen; volledige wijzigingsroutes, samenwonen, stoppen en ingangsdatums ontbreken nog. Geen nieuw ID voor dezelfde wijzigingsvraag. |
+| `toeslagen` | `veranderingen-doorgeven-voor-je-toeslagen` — Veranderingen doorgeven voor je toeslagen | Welke veranderingen geef ik zelf door? | GW-06 | Nieuw | P1 / batch 3 | Afgerond | Verhuizing/adres versus nieuwe huur, inkomensschatting, samenwonen, onderhuur, overige wijzigingsroutes, echte datums, juiste jaar, controle na indienen en hulp uitgewerkt. |
 | `woonkosten` | `servicekosten-en-voorschotten-begrijpen` — Servicekosten en voorschotten begrijpen | Hoe controleer ik de jaarlijkse afrekening van mijn verhuurder? | GW-07 | Gepland | P2 | Gepland; gedeeltelijke bestaande uitleg | Voorschot en jaarlijkse specificatie staan in woonlasten; rekencontrole, verdeelsleutels en betwisten ontbreken. Onderscheid contracten vóór/vanaf 2027 onderzoeken. |
 | `woonkosten` | `als-je-de-huur-of-een-rekening-niet-kunt-betalen` — Als je de huur of een rekening niet kunt betalen | Waar vraag ik tijdig hulp bij betalingsproblemen? | GW-10 | Gepland | P1 | Gepland | Actuele gemeentelijke schuldhulp en contact met schuldeiser onderzoeken; geen algemene incassotermijnen verzinnen. |
 
@@ -165,4 +185,4 @@ Controleer primaire pagina's zelf, inclusief ingangsdatums en uitzonderingen. Sc
 
 ## Volgende aanbevolen batch
 
-Volgende vier doelen: zorgtoeslag controleren en aanvragen (TOES-01), je toetsingsinkomen schatten (TOES-02), toeslagpartners en medebewoners (TOES-03), en veranderingen doorgeven voor je toeslagen (GW-06). Zo ontstaat eerst een samenhangende toeslagbasis. Daarna de definitieve toeslagberekening/terugbetalen (TOES-04), wateraanmelding, betalingsproblemen, brandveiligheid en ventilatie. Tel nieuwe TOES-vragen steeds apart van de oorspronkelijke 78. De tabelprioriteiten blijven redactionele keuzes, geen bezoekersfunctionaliteit.
+Volgende vier doelen: de definitieve toeslagberekening en terugbetalen (TOES-04), water regelen in je nieuwe woning (EWI-07), hulp als je huur of rekeningen niet kunt betalen (GW-10), en brandveilig wonen (HV-04). TOES-04 blijft dus uitdrukkelijk open voor een volgende batch. Daarna ventilatie en vocht (HV-05, HV-06). Tel nieuwe TOES-vragen steeds apart van de oorspronkelijke 78. De tabelprioriteiten blijven redactionele keuzes, geen bezoekersfunctionaliteit.
