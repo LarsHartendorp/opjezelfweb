@@ -7,7 +7,7 @@ import styles from "./page.module.css";
 export default async function Home() {
   const articles = await getArticles();
   return (
-    <main id="inhoud" className={styles.main}>
+    <main id="inhoud" tabIndex={-1} className={styles.main}>
       <section className={styles.hero} aria-labelledby="welkom">
         <p className={styles.eyebrow}>Je eigen plek begint hier</p>
         <h1 id="welkom">Een woning geaccepteerd.<br />En nu op jezelf.</h1>

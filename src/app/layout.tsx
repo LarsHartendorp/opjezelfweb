@@ -27,7 +27,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           {children}
           <footer className={styles.footer}>
             <p>Op Jezelf · Wegwijs in zelfstandig wonen</p>
-            <p>Deze website is in ontwikkeling. De voorbeeldartikelen zijn concepten.</p>
+            <p>Lees bij elk artikel welke bronnen zijn gebruikt en wanneer de tekst is gecontroleerd.</p>
           </footer>
         </MantineProvider>
       </body>

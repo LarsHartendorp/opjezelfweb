@@ -31,7 +31,7 @@ export default async function ArticlePage({ params }: Props) {
   const category = getCategory(article.category);
   const categoryHref = `/#${category.id}`;
   return (
-    <main id="inhoud" className={styles.main}>
+    <main id="inhoud" tabIndex={-1} className={styles.main}>
       <nav aria-label="Broodkruimelpad" className={styles.breadcrumbs}>
         <ol>
           <li><Link href="/">Home</Link></li>
@@ -46,7 +46,7 @@ export default async function ArticlePage({ params }: Props) {
           <p className={styles.description}>{article.description}</p>
           {article.draft && <div className={styles.draft}>
             <Badge color="orange" variant="light">Conceptartikel</Badge>
-            <p>Dit is voorbeeldinhoud in ontwikkeling. De tekst is nog niet inhoudelijk gecontroleerd.</p>
+            <p>Dit artikel is nog in bewerking en niet volledig inhoudelijk gecontroleerd.</p>
           </div>}
           <p className={styles.reviewed}>
             {article.reviewedAt ? <>Inhoudelijk gecontroleerd op <time dateTime={article.reviewedAt}>{new Intl.DateTimeFormat("nl-NL", { dateStyle: "long", timeZone: "UTC" }).format(new Date(`${article.reviewedAt}T00:00:00Z`))}</time>.</> : "Nog niet inhoudelijk gecontroleerd."}

@@ -6,7 +6,9 @@ Een Nederlandstalige informatiewebsite voor mensen die een woning hebben geaccep
 
 Eén homepage met zeven categorieën en directe links naar bestaande artikelen. Eén gedeeld artikeltemplate op `/onderwerpen/[slug]/`. Geen accounts, database, onboarding, personalisatie, checkboxes, taakstatussen of voortgangsopslag.
 
-De twee voorbeeldartikelen zijn zichtbare concepten (`draft: true`), nog niet inhoudelijk gecontroleerd (`reviewedAt: null`) en krijgen `noindex`. De overige categorieën bevatten alleen een melding dat er nog geen artikelen zijn. Bronverwijzingen zijn geen bewijs dat een artikel inhoudelijk is gecontroleerd.
+De eerste drie artikelen gaan over het huurcontract, woonlasten en een energiecontract. Ze zijn op 23 oktober 2026 gecontroleerd aan de hand van toegankelijke primaire bronnen en hebben `draft: false` en `reviewedAt: "2026-10-23"`. Ze bespreken kamerhuur en zelfstandige huurwoningen. De overige categorieën bevatten alleen een melding dat er nog geen artikelen zijn.
+
+Het [contentplan](docs/content-plan.md) bevat drie voorgestelde onderwerpen per categorie. De [broncontrole](docs/source-review.md) legt vast welke feiten zijn gecontroleerd en wat buiten de artikelen valt. Bronverwijzingen alleen zijn geen bewijs van inhoudelijke controle. Onvolledig gecontroleerde artikelen houden `draft: true` en `reviewedAt: null`; de template toont dan een conceptmelding en `noindex`. Nieuwe artikelen vragen een nieuwe statische build.
 
 ## Ontwikkelen
 

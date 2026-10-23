@@ -3,6 +3,7 @@
 .brand { font-size: 1.65rem; font-weight: 800; letter-spacing: -0.06em; text-decoration: none; white-space: nowrap; }
 .brandDot { color: #9a480c; }
 .header nav { font-size: 0.95rem; }
+.header nav a { display: inline-flex; align-items: center; min-height: 2.75rem; }
 .skipLink { position: absolute; top: 0.5rem; left: 0.5rem; padding: 0.75rem 1rem; background: white; z-index: 10; transform: translateY(-180%); }
 .skipLink:focus { transform: translateY(0); }
 .footer { max-width: 72rem; margin-inline: auto; padding: 2rem; border-top: 1px solid var(--oj-border); color: var(--oj-muted); font-size: 0.9rem; }
