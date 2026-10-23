@@ -4,8 +4,9 @@ import { notFound } from "next/navigation";
 import { Badge } from "@mantine/core";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
-import { getArticle, getArticles } from "@/lib/articles";
-import { getCategory } from "@/lib/categories";
+import { Breadcrumbs } from "@/components/breadcrumbs";
+import { getArticle, getArticles, getPublishedArticles } from "@/lib/articles";
+import { getCategory, getCategoryPath, getSubcategory } from "@/lib/categories";
 import styles from "./page.module.css";
 
 export const dynamicParams = false;
@@ -29,16 +30,18 @@ export default async function ArticlePage({ params }: Props) {
   const article = await getArticle((await params).slug);
   if (!article) notFound();
   const category = getCategory(article.category);
-  const categoryHref = `/#${category.id}`;
+  const categoryHref = getCategoryPath(category.id);
+  const subcategory = getSubcategory(category.id, article.subcategory);
+  const hasSection = (await getPublishedArticles()).some((topic) =>
+    topic.category === category.id && topic.subcategory === subcategory.id);
+  const returnHref = hasSection ? `${categoryHref}#${subcategory.id}` : categoryHref;
   return (
     <main id="inhoud" tabIndex={-1} className={styles.main}>
-      <nav aria-label="Broodkruimelpad" className={styles.breadcrumbs}>
-        <ol>
-          <li><Link href="/">Home</Link></li>
-          <li><Link href={categoryHref}>{category.label}</Link></li>
-          <li aria-current="page">{article.title}</li>
-        </ol>
-      </nav>
+      <Breadcrumbs items={[
+        { label: "Home", href: "/" },
+        { label: category.label, href: categoryHref },
+        { label: article.title },
+      ]} />
       <article>
         <header className={styles.heading}>
           <p className={styles.category}>{category.label}</p>
@@ -61,7 +64,7 @@ export default async function ArticlePage({ params }: Props) {
           <ul>{article.sources.map((source) => <li key={source.url}><a href={source.url}>{source.title}</a></li>)}</ul>
         </section>
       </article>
-      <Link className={styles.returnLink} href={categoryHref}>← Terug naar {category.label}</Link>
+      <Link className={styles.returnLink} href={returnHref}>← Terug naar {hasSection ? subcategory.label : category.label}</Link>
     </main>
   );
 }

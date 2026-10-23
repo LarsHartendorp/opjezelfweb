@@ -4,13 +4,14 @@ import { readdir, readFile } from "node:fs/promises";
 import path from "node:path";
 import matter from "gray-matter";
 import { cache } from "react";
-import { isCategoryId, type CategoryId } from "./categories";
+import { isCategoryId, isSubcategoryId, type CategoryId, type SubcategoryId } from "./categories";
 
 export type ArticleSource = { title: string; url: string };
 export type ArticleMetadata = {
   title: string;
   description: string;
   category: CategoryId;
+  subcategory: SubcategoryId;
   sources: ArticleSource[];
   reviewedAt: string | null;
   draft: boolean;
@@ -39,6 +40,9 @@ function validateMetadata(data: Record<string, unknown>, filename: string): Arti
   const title = requiredText(data.title, "title", filename);
   const description = requiredText(data.description, "description", filename);
   if (!isCategoryId(data.category)) fail(filename, "category moet een bestaande categorie-id zijn.");
+  if (!isSubcategoryId(data.category, data.subcategory)) {
+    fail(filename, "subcategory moet een bestaande subcategorie-id binnen de gekozen category zijn.");
+  }
   if (!Array.isArray(data.sources) || data.sources.length === 0) {
     fail(filename, "sources moet minstens één bron bevatten.");
   }
@@ -67,7 +71,7 @@ function validateMetadata(data: Record<string, unknown>, filename: string): Arti
     }
   }
   if (typeof data.draft !== "boolean") fail(filename, "draft moet true of false zijn.");
-  return { title, description, category: data.category, sources, reviewedAt, draft: data.draft };
+  return { title, description, category: data.category, subcategory: data.subcategory, sources, reviewedAt, draft: data.draft };
 }
 
 // Alleen server/build-code importeert deze module.
@@ -93,4 +97,8 @@ export const getArticles = cache(async (): Promise<Article[]> => {
 
 export async function getArticle(slug: string) {
   return (await getArticles()).find((article) => article.slug === slug);
+}
+
+export async function getPublishedArticles() {
+  return (await getArticles()).filter((article) => !article.draft);
 }

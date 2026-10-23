@@ -2,6 +2,7 @@
 title: Je woonlasten op een rij
 description: Maak onderscheid tussen maandelijkse kosten, startkosten en bedragen die je nog moet uitzoeken.
 category: geld-en-woonlasten
+subcategory: woonkosten
 sources:
   - title: "Nibud — Inkomsten en uitgaven"
     url: https://scholieren.nibud.nl/artikel/inkomsten-en-uitgaven/

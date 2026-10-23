@@ -1,7 +1,4 @@
 .main { max-width: 52rem; margin-inline: auto; padding: 2rem 2rem 4rem; }
-.breadcrumbs { font-size: 0.875rem; margin-bottom: 2.5rem; }
-.breadcrumbs ol { display: flex; flex-wrap: wrap; gap: 0.5rem; padding: 0; margin: 0; list-style: none; }
-.breadcrumbs li + li::before { content: "/"; margin-right: 0.5rem; color: var(--oj-muted); }
 .heading h1 { font-size: clamp(2rem, 5vw, 3rem); letter-spacing: -0.04em; margin: 0.7rem 0 1rem; }
 .category { font-size: 0.9rem; font-weight: 700; margin: 0; }
 .description { font-size: 1.2rem; color: var(--oj-muted); }

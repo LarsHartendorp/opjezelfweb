@@ -2,6 +2,7 @@
 title: Een energiecontract regelen
 description: Ontdek of je zelf stroom en gas moet regelen en hoe je een aanbod, startdatum en meterstanden controleert.
 category: energie-water-en-internet
+subcategory: energiecontracten
 sources:
   - title: "ACM ConsuWijzer — Netbeheerder en energieleverancier"
     url: https://consument.acm.nl/elektriciteit-en-gas/wie-is-wie-energiemarkt/wie-is-mijn-netbeheerder

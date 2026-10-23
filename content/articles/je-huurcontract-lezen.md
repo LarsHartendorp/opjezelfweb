@@ -2,6 +2,7 @@
 title: Je huurcontract lezen
 description: Begrijp wat je huurt, wat je betaalt en welke afspraken belangrijk zijn bij een kamer of zelfstandige huurwoning.
 category: woning-en-huurcontract
+subcategory: huurafspraken
 sources:
   - title: "Rijksoverheid — Afspraken in het huurcontract"
     url: https://www.rijksoverheid.nl/themas/bouwen-en-wonen/woning-huren/vraag-en-antwoord/woning-huren/welke-afspraken-staan-er-in-het-huurcontract-van-mijn-woning

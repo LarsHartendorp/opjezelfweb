@@ -4,11 +4,11 @@ Een Nederlandstalige informatiewebsite voor mensen die een woning hebben geaccep
 
 ## Scope
 
-Eén homepage met zeven categorieën en directe links naar bestaande artikelen. Eén gedeeld artikeltemplate op `/onderwerpen/[slug]/`. Geen accounts, database, onboarding, personalisatie, checkboxes, taakstatussen of voortgangsopslag.
+Drie paginatypen: de homepage `/` met zeven klikbare hoofdcategorieën, categoriepagina's op `/categorieen/[slug]/` met artikelen per subcategorie, en het gedeelde artikeltemplate op `/onderwerpen/[slug]/`. Subcategorieën zijn secties met vaste ankers binnen categoriepagina's, zonder eigen routes. Geen accounts, database, onboarding, personalisatie, checkboxes, taakstatussen of voortgangsopslag.
 
 De eerste drie artikelen gaan over het huurcontract, woonlasten en een energiecontract. Ze zijn op 23 oktober 2026 gecontroleerd aan de hand van toegankelijke primaire bronnen en hebben `draft: false` en `reviewedAt: "2026-10-23"`. Ze bespreken kamerhuur en zelfstandige huurwoningen. De overige categorieën bevatten alleen een melding dat er nog geen artikelen zijn.
 
-Het [contentplan](docs/content-plan.md) bevat drie voorgestelde onderwerpen per categorie. De [broncontrole](docs/source-review.md) legt vast welke feiten zijn gecontroleerd en wat buiten de artikelen valt. Bronverwijzingen alleen zijn geen bewijs van inhoudelijke controle. Onvolledig gecontroleerde artikelen houden `draft: true` en `reviewedAt: null`; de template toont dan een conceptmelding en `noindex`. Nieuwe artikelen vragen een nieuwe statische build.
+Het [contentplan](docs/content-plan.md) beschrijft de hiërarchie en drie onderwerpen per categorie, met onderscheid tussen bestaande artikelen en geplande inhoud. De [broncontrole](docs/source-review.md) legt vast welke feiten zijn gecontroleerd en wat buiten de artikelen valt. Bronverwijzingen alleen zijn geen bewijs van inhoudelijke controle. Onvolledig gecontroleerde artikelen houden `draft: true` en `reviewedAt: null`; hun routes blijven rechtstreeks bereikbaar met conceptmelding en `noindex`, maar categorieoverzichten tonen alleen `draft: false`. Nieuwe artikelen vragen een nieuwe statische build.
 
 ## Ontwikkelen
 
@@ -29,16 +29,17 @@ De ontwikkelserver draait standaard op http://localhost:3000. Draai lint, typech
 ## Een artikel toevoegen
 
 1. Maak `content/articles/duidelijke-naam.md`. De bestandsnaam zonder `.md` bepaalt de slug; gebruik alleen kleine letters, cijfers en enkele koppeltekens. De URL wordt `/onderwerpen/duidelijke-naam/`. Gebruik geen aparte `slug` in de frontmatter.
-2. Voeg YAML-frontmatter toe met alle onderstaande velden.
+2. Voeg YAML-frontmatter toe met alle onderstaande velden. Kies `category` en een bijbehorende `subcategory` uit `src/lib/categories.ts`.
 3. Schrijf de Nederlandstalige Markdown onder de afsluitende `---`. De template toont titel, beschrijving, conceptmelding, controledatum en bronnen; begin de inhoud met tekst en gebruik `##` voor secties.
 4. Gebruik echte, gecontroleerde bron-URL's van gezaghebbende organisaties. Verzin geen juridische termijnen, prijzen of controledatums. Vul `reviewedAt` pas in na een echte inhoudelijke controle. Zet `draft` pas na redactionele beoordeling op `false`.
-5. Draai lint, typecheck en build en controleer de pagina. Homepage en statische routes worden automatisch uit de bestanden afgeleid.
+5. Draai lint, typecheck en build en controleer de pagina en de teruglink naar de subcategorie. Artikellijsten en artikelroutes worden automatisch uit de bestanden afgeleid; categoriepagina's uit de centrale categoriedefinitie.
 
 ```yaml
 ---
 title: Je huurcontract lezen
 description: Leer waar je de afspraken over je woning vindt.
 category: woning-en-huurcontract
+subcategory: huurafspraken
 sources:
   - title: "Rijksoverheid — Woning huren"
     url: https://www.rijksoverheid.nl/themas/bouwen-en-wonen/woning-huren
@@ -47,7 +48,7 @@ draft: true
 ---
 ```
 
-`title` en `description` zijn niet-lege teksten. `category` is een van de onderstaande ids. `sources` bevat minstens één object met een niet-lege `title` en geldige http(s)-`url`. `reviewedAt` is verplicht en is `null` (ook leeg YAML wordt null) of een bestaande kalenderdatum als geciteerde tekst `"JJJJ-MM-DD"`. Een ongeciteerde YAML-datum wordt afgewezen. `draft` is een verplichte boolean. Lege inhoud, ongeldige slugs en ongeldige metadata stoppen de build met de bestandsnaam in de foutmelding. URL-validatie controleert het formaat; beschikbaarheid en gezag van de bron blijven redactionele controles.
+`title` en `description` zijn niet-lege teksten. `category` is een van de onderstaande ids. `subcategory` is verplicht en moet binnen die categorie bestaan; ontbrekende, onbekende of verkeerd gecombineerde verwijzingen stoppen de build. `sources` bevat minstens één object met een niet-lege `title` en geldige http(s)-`url`. `reviewedAt` is verplicht en is `null` (ook leeg YAML wordt null) of een bestaande kalenderdatum als geciteerde tekst `"JJJJ-MM-DD"`. Een ongeciteerde YAML-datum wordt afgewezen. `draft` is een verplichte boolean. Lege inhoud, ongeldige slugs en ongeldige metadata stoppen de build met de bestandsnaam in de foutmelding. URL-validatie controleert het formaat; beschikbaarheid en gezag van de bron blijven redactionele controles.
 
 | Categorie-id | Label |
 | --- | --- |
@@ -62,11 +63,13 @@ draft: true
 ## Structuur en afspraken
 
 - `src/lib/articles.ts`: uitsluitend server/build-code, afgeschermd met `server-only`; lezen en valideren van lokale Markdown met gray-matter.
-- `src/lib/categories.ts`: centrale categorieën en homepage-ankers.
+- `src/lib/categories.ts`: enige bron voor categorie-id's, URL-slugs, Nederlandse labels, beschrijvingen en subcategorieën. De bestaande `label`-conventie is behouden. Id's blijven stabiel; de afzonderlijke `slug` bepaalt de categorie-URL (momenteel gelijk aan het id). De subcategorie-id bepaalt het sectie-anker. Wijzig deze id's niet bij een tekstuele titelwijziging.
+- `src/app/categorieen/[slug]/page.tsx`: alle zeven categoriepagina's worden gebouwd via `generateStaticParams`, met `dynamicParams = false`. Alleen gepubliceerde artikelen en gevulde subcategorieën worden getoond. Een lege categorie heeft een lege melding en een teruglink; onbekende slugs krijgen een 404.
+- `src/components/breadcrumbs.tsx`: gedeelde broodkruimels voor categorie- en artikelpagina's.
 - `src/app/onderwerpen/[slug]/page.tsx`: gedeeld template met react-markdown en remark-gfm, `generateStaticParams` en `dynamicParams = false`. Onbekende slugs krijgen een 404. Ruwe HTML wordt niet uitgevoerd; Markdown-taaklijsten renderen geen checkboxes.
 - `src/app/layout.tsx`: Nederlands document, metadata, Mantine-CSS, `MantineProvider`, `ColorSchemeScript` en `mantineHtmlProps` volgens de officiële integratie: https://mantine.dev/guides/next/.
 - `postcss.config.cjs`: Mantine-preset en breakpointvariabelen. Custom layouts en artikelopmaak staan in CSS Modules.
 
-Het kleurenschema staat vast op licht in zowel provider als script, zonder keuzeschakelaar. Navigatie heeft zichtbare toetsenbordfocus, een skiplink, broodkruimels en een teruglink naar de juiste categorie. Gegenereerde mappen (`.next/`, `out/`, `build/`) en TypeScript-buildinformatie worden door Git genegeerd.
+Het kleurenschema staat vast op licht in zowel provider als script, zonder keuzeschakelaar. Navigatie heeft zichtbare toetsenbordfocus, een skiplink en broodkruimels. Categoriekaarten bevatten één link zonder geneste links. Artikel-teruglinks gaan naar `/categorieen/[slug]/#subcategorie-id`; als een concept nog geen gepubliceerde subcategoriegroep heeft, gaat de teruglink naar de categorie zonder anker. De artikel-URL's blijven gelijk. Gegenereerde mappen (`.next/`, `out/`, `build/`) en TypeScript-buildinformatie worden door Git genegeerd.
 
 Lees voor Next.js-wijzigingen de documentatie van de geïnstalleerde versie onder `node_modules/next/dist/docs/`, zoals vastgelegd in `AGENTS.md`. Behoud de door Next.js gegenereerde instructies in dat bestand.
