@@ -1,150 +1,22 @@
-.page {
-  --background: #fafafa;
-  --foreground: #fff;
-
-  --text-primary: #000;
-  --text-secondary: #666;
-
-  --button-primary-hover: #383838;
-  --button-secondary-hover: #f2f2f2;
-  --button-secondary-border: #ebebeb;
-
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-family: var(--font-geist-sans);
-  background-color: var(--background);
-}
-
-.main {
-  display: flex;
-  flex: 1;
-  width: 100%;
-  max-width: 800px;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: space-between;
-  background-color: var(--foreground);
-  padding: 120px 60px;
-}
-
-.intro {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  text-align: left;
-  gap: 24px;
-}
-
-.intro h1 {
-  max-width: 320px;
-  font-size: 40px;
-  font-weight: 600;
-  line-height: 48px;
-  letter-spacing: -2.4px;
-  text-wrap: balance;
-  color: var(--text-primary);
-}
-
-.intro p {
-  max-width: 440px;
-  font-size: 18px;
-  line-height: 32px;
-  text-wrap: balance;
-  color: var(--text-secondary);
-}
-
-.intro a {
-  font-weight: 500;
-  color: var(--text-primary);
-}
-
-.ctas {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  max-width: 440px;
-  gap: 16px;
-  font-size: 14px;
-}
-
-.ctas a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 40px;
-  padding: 0 16px;
-  border-radius: 128px;
-  border: 1px solid transparent;
-  transition: 0.2s;
-  cursor: pointer;
-  width: fit-content;
-  font-weight: 500;
-}
-
-a.primary {
-  background: var(--text-primary);
-  color: var(--background);
-  gap: 8px;
-}
-
-a.secondary {
-  border-color: var(--button-secondary-border);
-}
-
-/* Enable hover only on non-touch devices */
-@media (hover: hover) and (pointer: fine) {
-  a.primary:hover {
-    background: var(--button-primary-hover);
-    border-color: transparent;
-  }
-
-  a.secondary:hover {
-    background: var(--button-secondary-hover);
-    border-color: transparent;
-  }
-}
-
-@media (max-width: 600px) {
-  .main {
-    padding: 48px 24px;
-  }
-
-  .intro {
-    gap: 16px;
-  }
-
-  .intro h1 {
-    font-size: 32px;
-    line-height: 40px;
-    letter-spacing: -1.92px;
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  .logo {
-    filter: invert();
-  }
-
-  .page {
-    --background: #000;
-    --foreground: #000;
-
-    --text-primary: #ededed;
-    --text-secondary: #999;
-
-    --button-primary-hover: #ccc;
-    --button-secondary-hover: #1a1a1a;
-    --button-secondary-border: #1a1a1a;
-  }
-}
-
-.code {
-  font-family: var(--font-geist-mono);
-  font-size: 0.9em;
-  background: color-mix(in srgb, currentColor 8%, transparent);
-  padding: 0.1em 0.4em;
-  border-radius: 6px;
+.main { max-width: 72rem; margin-inline: auto; padding: 0 2rem 4rem; }
+.hero { padding: 4.5rem 0; max-width: 49rem; }
+.eyebrow { margin: 0 0 1rem; color: #3f6655; font-weight: 700; font-size: 0.9rem; }
+.hero h1 { margin: 0; font-size: clamp(2.3rem, 5vw, 4rem); letter-spacing: -0.05em; line-height: 1.12; }
+.intro { max-width: 40rem; margin: 1.5rem 0; font-size: 1.15rem; color: var(--oj-muted); }
+.jumpLink { display: inline-flex; gap: 1rem; font-weight: 700; padding-block: 0.5rem; }
+.sectionHeading { padding-top: 2rem; border-top: 1px solid var(--oj-border); margin-bottom: 1.75rem; }
+.sectionHeading h2 { margin: 0; font-size: 1.75rem; letter-spacing: -0.03em; }
+.sectionHeading p { color: var(--oj-muted); margin-bottom: 0; }
+.grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
+.category { background: #fff; border: 1px solid var(--oj-border); border-radius: 0.6rem; padding: 1.5rem; scroll-margin-top: 2rem; }
+.category h3 { font-size: 1.2rem; margin: 0 0 0.7rem; }
+.category p { color: var(--oj-muted); margin: 0 0 1rem; }
+.topics { list-style: none; margin: 0; padding: 0; }
+.topics li { display: flex; align-items: baseline; flex-wrap: wrap; gap: 0.6rem; }
+.topics a { font-weight: 700; padding-block: 0.3rem; overflow-wrap: anywhere; }
+.category .empty { font-size: 0.9rem; margin: 0; }
+@media (max-width: $mantine-breakpoint-xs) {
+  .main { padding-inline: 1.25rem; }
+  .hero { padding-block: 3rem; }
+  .grid { grid-template-columns: 1fr; }
 }

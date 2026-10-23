@@ -1,69 +1,42 @@
-import Image from "next/image";
+import Link from "next/link";
+import { Badge } from "@mantine/core";
+import { categories } from "@/lib/categories";
+import { getArticles } from "@/lib/articles";
 import styles from "./page.module.css";
 
-export default function Home() {
+export default async function Home() {
+  const articles = await getArticles();
   return (
-    <div className={styles.page}>
-      <main className={styles.main}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className={styles.intro}>
-          <h1>
-            To get started, edit the{" "}
-            <code className={styles.code}>page.tsx</code> file.
-          </h1>
-          <p>
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+    <main id="inhoud" className={styles.main}>
+      <section className={styles.hero} aria-labelledby="welkom">
+        <p className={styles.eyebrow}>Je eigen plek begint hier</p>
+        <h1 id="welkom">Een woning geaccepteerd.<br />En nu op jezelf.</h1>
+        <p className={styles.intro}>Er komt veel kijken bij zelfstandig wonen. Hier vind je begrijpelijke uitleg en betrouwbare bronnen, zodat je weet waar je meer kunt lezen.</p>
+        <a className={styles.jumpLink} href="#categorieen">Bekijk de onderwerpen <span aria-hidden="true">↓</span></a>
+      </section>
+      <section id="categorieen" aria-labelledby="categorieen-titel">
+        <div className={styles.sectionHeading}>
+          <h2 id="categorieen-titel">Waar wil je meer over weten?</h2>
+          <p>Kies een onderwerp en lees rustig verder.</p>
         </div>
-        <div className={styles.ctas}>
-          <a
-            className={styles.primary}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className={styles.logo}
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={14}
-            />
-            Deploy Now
-          </a>
-          <a
-            className={styles.secondary}
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+        <div className={styles.grid}>
+          {categories.map((category) => {
+            const topics = articles.filter((article) => article.category === category.id);
+            return (
+              <section key={category.id} id={category.id} className={styles.category} aria-labelledby={category.id + "-titel"}>
+                <h3 id={category.id + "-titel"}>{category.label}</h3>
+                <p>{category.description}</p>
+                {topics.length ? <ul className={styles.topics}>
+                  {topics.map((article) => <li key={article.slug}>
+                    <Link href={"/onderwerpen/" + article.slug + "/"}>{article.title}</Link>
+                    {article.draft && <Badge color="orange" variant="light" size="sm">Concept</Badge>}
+                  </li>)}
+                </ul> : <p className={styles.empty}>Er zijn nog geen artikelen in deze categorie.</p>}
+              </section>
+            );
+          })}
         </div>
-      </main>
-    </div>
+      </section>
+    </main>
   );
 }
