@@ -6,9 +6,11 @@ Een Nederlandstalige informatiewebsite voor mensen die een woning hebben geaccep
 
 Drie paginatypen: de homepage `/` met zeven klikbare hoofdcategorieën, categoriepagina's op `/categorieen/[slug]/` met artikelen per subcategorie, en het gedeelde artikeltemplate op `/onderwerpen/[slug]/`. Subcategorieën zijn secties met vaste ankers binnen categoriepagina's, zonder eigen routes. Geen accounts, database, onboarding, personalisatie, checkboxes, taakstatussen of voortgangsopslag.
 
-De eerste drie artikelen gaan over het huurcontract, woonlasten en een energiecontract. Ze zijn op 23 oktober 2026 gecontroleerd aan de hand van toegankelijke primaire bronnen en hebben `draft: false` en `reviewedAt: "2026-10-23"`. Ze bespreken kamerhuur en zelfstandige huurwoningen. De overige categorieën bevatten alleen een melding dat er nog geen artikelen zijn.
+Er zijn veertien gepubliceerde artikelen. De tweede inventarisbatch voegt sleuteloverdracht en beginstaat, lokale belastingen en kwijtschelding, huurtoeslag aanvragen, en installaties en meters herkennen toe. De tien bestaande artikelen zijn behouden. De vier nieuwe teksten zijn op 23 oktober 2026 gecontroleerd aan toegankelijke primaire bronnen en hebben `draft: false` en `reviewedAt: "2026-10-23"`. Lokale procedures, leveranciersvoorbeelden en toeslagjaren zijn expliciet onderscheiden.
 
-Het [contentplan](docs/content-plan.md) beschrijft de hiërarchie en drie onderwerpen per categorie, met onderscheid tussen bestaande artikelen en geplande inhoud. De [broncontrole](docs/source-review.md) legt vast welke feiten zijn gecontroleerd en wat buiten de artikelen valt. Bronverwijzingen alleen zijn geen bewijs van inhoudelijke controle. Onvolledig gecontroleerde artikelen houden `draft: true` en `reviewedAt: null`; hun routes blijven rechtstreeks bereikbaar met conceptmelding en `noindex`, maar categorieoverzichten tonen alleen `draft: false`. Nieuwe artikelen vragen een nieuwe statische build.
+De [ideeëninventaris](docs/article-ideas.md) bevat 78 oorspronkelijke vragen bij 49 artikeldoelen; hun primaire toewijzingen zijn behouden. Er zijn 31 oorspronkelijke vragen beantwoord en 47 gepland of gedeeltelijk. Vier nieuwe toeslagvragen zijn apart toegevoegd, bij vier aanvullende doelen; daarvan zijn er nul volledig beantwoord. De bestaande subcategorie `toeslagen` heet nu Toeslagen, met hetzelfde ID en anker. Huurtoeslag inclusief proefberekening blijft GW-05; wijzigingen doorgeven blijft GW-06. Zorgtoeslag, toetsingsinkomen, partners en definitieve berekening/terugbetalen krijgen nieuwe TOES-ID's. Deze redactionele registratie staat uitsluitend in documentatie; ongepubliceerde doelen krijgen geen placeholderlinks.
+
+Het [contentplan](docs/content-plan.md) beschrijft de hiërarchie en onderwerpen per categorie, met onderscheid tussen bestaande artikelen en geplande inhoud. De afvalpas is onder Huishouden en veiligheid ingedeeld; de bestaande categorie- en subcategorie-ID's zijn behouden. De [broncontrole](docs/source-review.md) legt vast welke feiten zijn gecontroleerd en wat buiten de artikelen valt. Bronverwijzingen alleen zijn geen bewijs van inhoudelijke controle. Onvolledig gecontroleerde artikelen houden `draft: true` en `reviewedAt: null`; hun routes blijven rechtstreeks bereikbaar met conceptmelding en `noindex`, maar categorieoverzichten tonen alleen `draft: false`. Nieuwe artikelen vragen een nieuwe statische build.
 
 ## Ontwikkelen
 
@@ -23,6 +25,8 @@ npm run build
 ```
 
 De ontwikkelserver draait standaard op http://localhost:3000. Draai lint, typecheck en build afzonderlijk; `next build` vervangt de lintcontrole niet. `typecheck` gebruikt `tsc --noEmit`.
+
+Toont een net toegevoegd of hernoemd Markdown-artikel lokaal nog een 404? Herstart `npm run dev` om de artikelbestanden en statische routeparameters opnieuw te laten inlezen. De productie-export wordt altijd opnieuw opgebouwd met `npm run build`.
 
 `npm run build` maakt een volledige statische export in `out/`. Publiceer die map bij een statische host. Dankzij `trailingSlash: true` krijgen artikelen een eigen map met `index.html`. Configureer de host om `404.html` te gebruiken voor ontbrekende bestanden. `next start` is niet geschikt voor deze export; voor een lokale exportpreview kun je met een geïnstalleerde Python bijvoorbeeld `python -m http.server 3000 --directory out` gebruiken. De build gebruikt systeemlettertypen en haalt geen fonts of artikelen van internet op. Opnieuw bouwen is nodig na inhoudswijzigingen.
 

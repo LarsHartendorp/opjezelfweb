@@ -1,4 +1,4 @@
-# Broncontrole eerste drie artikelen
+# Broncontrole artikelen
 
 Gecontroleerd op **23 oktober 2026**. De volledige relevante passages op de primaire bronpagina's zijn gelezen; zoekresultaatsamenvattingen zijn niet als eindcontrole gebruikt. De bronnen staan ook in de frontmatter en als links bij de betreffende uitleg in de artikelen. Het bestaande schema is behouden.
 
@@ -41,8 +41,250 @@ De toegankelijke Nibud-bron is bedoeld voor scholieren; dit staat bij de link in
 
 De termijn van vijf werkdagen is alleen genoemd bij zelf doorgeven van verhuisstanden, overeenkomstig de betreffende ACM-uitleg. Foto's maken en bevestigingen bewaren zijn praktische suggesties. Er staat geen algemene wettelijke aanvraagtermijn voor een nieuw contract: de startdatum moet met de leverancier worden afgesproken. Er worden geen leveranciers of tarieven aanbevolen.
 
-## Uitkomst en onderhoud
+## Je nieuwe adres doorgeven aan de gemeente
 
-Voor de opgenomen beweringen is geen onopgeloste bronvraag overgebleven. Alle drie artikelen hebben daarom `draft: false` en `reviewedAt: "2026-10-23"`. De datum geldt voor deze inhoudelijke controle, niet als garantie voor toekomstige juistheid. Er is geen automatische bronbewaking.
+Gecontroleerd op **23 oktober 2026**. Scope: verhuizen binnen Nederland, inclusief kamerhuur en inwonen; geen volledige handleiding voor immigratie of emigratie.
 
-De bronpagina over servicekosten kondigt regels voor nieuwe contracten vanaf 2027 aan. Die toekomstige opsomming is niet als huidige regel overgenomen. Controleer wijzigingen vóór verdere uitbreiding, vooral toeslagregels, bijzondere huurvormen en energievoorwaarden.
+| Gecontroleerd onderdeel | Primaire bron |
+| --- | --- |
+| Gemeente van het nieuwe adres, BRP, landelijke meldtermijn en bewijsstukken | [Rijksoverheid: verhuizing doorgeven](https://www.rijksoverheid.nl/documenten/vraag-en-antwoord/gemeenten/hoe-kan-ik-mijn-verhuizing-doorgeven-aan-de-gemeente) |
+| Officiële gemeentelijke contactgegevens vinden | [Overheid.nl: gemeenten](https://organisaties.overheid.nl/gemeenten) |
+| Aanvullende documenten bij inwonen, uitsluitend als lokaal voorbeeld | [Gemeente Putten: aangifte verhuizing](https://www.putten.nl/Verhuizen/Aangifte_verhuizing) |
+| Verschillende meldroutes, bevestiging en verwerking, uitsluitend als lokaal voorbeeld | [Gemeente Gouda: verhuizing](https://www.gouda.nl/direct-regelen/leven-en-wonen/verhuizen/verhuizing/) |
+| Gebruik van DigiD voor online gemeentelijke zaken | [Gemeente Gouda: DigiD](https://www.gouda.nl/online-zaken-regelen-met-digid/) |
+
+De landelijke termijn is gecontroleerd op de Rijksoverheidspagina: vanaf vier weken vóór tot uiterlijk vijf dagen na de verhuizing. De tekst maakt hiervan geen vijf werkdagen. Lokale bijlagen, verwerkingstijden en aanvraagmethoden worden niet veralgemeniseerd. Bij verschil tussen sleuteloverdracht en feitelijke verhuizing verwijst het artikel naar de gemeente voor de eigen situatie. Er is geen algemene toezegging dat andere woonzaken automatisch meegaan.
+
+## Je spullen verzekeren met een inboedelverzekering
+
+Gecontroleerd op **23 oktober 2026**. Scope: algemene oriëntatie voor huurders, met een beperkt en expliciet aanbiederspecifiek voorbeeld; geen productadvies of dekkingsgarantie.
+
+| Gecontroleerd onderdeel | Primaire bron |
+| --- | --- |
+| Inboedel tegenover opstal, soorten schade en vergoeding | [Wijzer in geldzaken: woonhuis- en inboedelverzekering](https://www.wijzeringeldzaken.nl/verhuizen-en-wonen/woonhuis-en-inboedelverzekering/) |
+| Kamerhuur, verschillen per verzekering en voorzorgsmaatregelen | [Verbond van Verzekeraars: inboedel op kamers](https://www.vanatotzekerheid.nl/life-event/op-kamers/inboedel-je-spullen-verzekerd/) |
+| Polisgegevens, wie verzekerd is, voorwaarden en verplichtingen | [Verbond: polis lezen en bewaren](https://www.vanatotzekerheid.nl/stap/afsluiten/polis-lezen-en-bewaren/) |
+| Eigen risico naast de premie beoordelen | [Verbond: aandachtspunten](https://www.vanatotzekerheid.nl/stap/orienteren/aandachtspunten/) |
+| Verhuizing, beide adressen en waarde van spullen bespreken | [Verbond: huis en spullen verzekeren](https://www.vanatotzekerheid.nl/life-event/huis-kopen/huis-en-spullen-verzekeren/) |
+| Voorbeeld van diefstaldekking van telefoon en laptop in een afgesloten kamer tegenover gedeelde ruimtes | [NN: eigen studentenproduct](https://www.nn.nl/Particulier/Verzekeren/Studentenverzekeringen/Inboedelverzekering-student.htm) |
+
+De NN-claim is beperkt tot de genoemde uitleg over het eigen product. Het artikel neemt geen premie, verzekerd maximum, leeftijdsgrens of algemene dekking voor andere aanbieders over. De NN-pagina noemt zichzelf een samenvatting en verwijst voor precieze dekking naar de polisvoorwaarden; het artikel houdt die grens aan. Andere onderwerpen, zoals spullen van huisgenoten en schade tijdens vervoer, zijn vragen aan de eigen verzekeraar, geen toezegging van dekking. Er wordt niet beweerd dat een ouder- of verhuurderspolis altijd wel of nooit dekking geeft.
+
+## Je verhuisdag voorbereiden
+
+Gecontroleerd op **23 oktober 2026**. Scope: praktische voorbereiding van vervoer, toegang, inpakken en de eerste dag, met aparte uitleg over lokale of contractuele voorwaarden.
+
+| Gecontroleerd onderdeel | Primaire bron |
+| --- | --- |
+| Praktische oriëntatie op datum, vervoer, inpakken en afstemmen | [Erkende Verhuizers: voorbereiding](https://www.erkendeverhuizers.nl/verhuizing-voorbereiden/checklist-verhuizen/) |
+| Voorbeeld van gemeentelijke verkeersregels voor verhuiswagens | [Gemeente Utrecht: verkeersregels verhuiswagen](https://www.utrecht.nl/wonen-en-leven/verkeer/verkeersregels-verhuiswagen) |
+| Obstakels uit de vluchtroute houden | [Brandweer: vluchtplan](https://www.brandweer.nl/onderwerpen/vlucht-met-je-vluchtplan/) |
+| Begintoestand van de huurwoning schriftelijk vastleggen | [Rijksoverheid: afspraken huurcontract](https://www.rijksoverheid.nl/themas/bouwen-en-wonen/woning-huren/vraag-en-antwoord/woning-huren/welke-afspraken-staan-er-in-het-huurcontract-van-mijn-woning) |
+
+De tijdvakken uit de commerciële verhuisvoorbereiding zijn niet als wettelijke termijnen overgenomen. Evenmin is een verhuisbedrijf als verplicht gepresenteerd. Utrecht is herkenbaar een lokaal voorbeeld; er wordt geen landelijke vergunningsplicht of aanvraagtermijn bedacht. Details over verzekering van transportschade en aansprakelijkheid van helpers blijven buiten dit artikel. De eigen contract- en gebouwafspraken moeten worden nagevraagd.
+
+## Een afvalpas aanvragen bij de gemeente
+
+Gecontroleerd op **23 oktober 2026**. Dit artikel vult Huishouden en veiligheid / `veilig-en-gezond`. De plantoewijzing onder Adres en administratie is verwijderd; het onderwerp wordt niet dubbel gepubliceerd.
+
+| Gecontroleerd onderdeel | Primaire bron |
+| --- | --- |
+| Afvalpas kan voor containers of afvalbrengpunten nodig zijn; gegevens verschillen lokaal | [Overheid.nl: afvalpas](https://gegevensbijbesluiten.overheid.nl/besluit/63277210) |
+| Eigen gemeentelijke website vinden | [Overheid.nl: gemeenten](https://organisaties.overheid.nl/gemeenten) |
+| Verschil afvalpas en toegang recyclingperrons, overdracht en blokkeren bij vervanging | [Gemeente Almere: afvalpas](https://www.almere.nl/afval/afvalpas-aanvragen) |
+| Pas bij het adres laten, delen op één adres en ontbrekende pas aanvragen | [Gemeente Den Haag: afvalpas](https://www.denhaag.nl/nl/afval/afvalpas-aanvragen/) |
+| Aanvraag via de gemeentelijke inzamelaar in plaats van rechtstreeks bij de gemeente | [Gemeente Sittard-Geleen: afvalpas](https://sittard-geleen.nl/onderwerpen/regelen/afval/afvalpas-of-container-bestellen/) |
+
+De lokale pagina's zijn inhoudelijk geopend en gelezen. Een aanvankelijk gevonden pagina van Assen gaf bij openen HTTP 429 en is niet als bron gebruikt; de toegankelijke primaire pagina's hierboven onderbouwen de opgenomen uitleg. Er blijven geen claims afhankelijk van die onbereikbare pagina. Er zijn geen landelijke kosten, levertijden, pasrechten of automatische aanvragen na BRP-inschrijving beloofd. Bij een ontbrekende pas of een storing wordt verwezen naar de eigen gemeente of de door haar aangewezen inzamelaar.
+
+## Inventarisbatch 1 — 23 oktober 2026
+
+Alle zeven bestaande artikelteksten zijn vergeleken met de 78 vragen in `article-ideas.md`. De registratie in `content-plan.md` bevat 78 unieke ID's bij 49 artikeldoelen. Er waren 12 daadwerkelijk beantwoorde vragen vóór deze batch; na één uitbreiding en drie nieuwe artikelen zijn dat 21. De overige 57 zijn gepland of gedeeltelijk beantwoord. Vermelding is niet gelijkgesteld aan dekking: onder meer schadefoto's, inschrijvingscontrole, waarde van inboedel en inrichting blijven expliciete gaten. De vraag naar alle meterstanden blijft eveneens gedeeltelijk: het energieartikel is geen volledig overzicht van stroomregisters, gas, water en warmte.
+
+De al gepubliceerde afvalpas beantwoordt de eerste gevraagde prioriteit en blijft ongewijzigd. Rechten en verantwoordelijkheden zijn samengevoegd. De vrijgekomen slots gaan naar de volgende oorspronkelijke vragen, vloerkeuze en ondervloer; die blijven volgens het eerdere plan twee verschillende beslisvragen. Hieronder staat de inhoudelijke controle van deze vier bewerkte artikelen. Alle genoemde webpagina's zijn geopend en de relevante passages zijn gelezen.
+
+### Uitbreiding: Je woonlasten op een rij
+
+Gepubliceerd op bestaande slug `je-woonlasten-op-een-rij`, categorie `geld-en-woonlasten`, anker `woonkosten`. Nieuw afgerond: sociale-huurkosten en reserve voor jaarrekeningen en onverwachte kosten. Bestaande dekking van kostentermen, startuitgaven en energievoorschot blijft behouden.
+
+| Onderdeel | Geopende primaire pagina en resultaat |
+| --- | --- |
+| Sociale huur: begrensde kale huur en huurverhoging, geen algemeen totaalpakket | [Rijksoverheid: huursectoren](https://www.rijksoverheid.nl/themas/belastingen-uitkeringen-en-toeslagen/waardering-onroerende-zaken-woz/vraag-en-antwoord/huurwoning-zoeken/wat-is-het-verschil-tussen-een-sociale-huurwoning-een-middenhuurwoning-en-een-huurwoning-in-de-vrije-sector). Geen inkomensgrenzen, bedragen of toeslagaanspraak afgeleid. |
+| Gemeentelijke heffingen als kostenpost, lokale tarieven en navraag | [Rijksoverheid: gemeentelijke belastingen](https://www.rijksoverheid.nl/themas/werk/arbeidsovereenkomst-en-cao/vraag-en-antwoord/gemeenten/welke-belastingen-heft-de-gemeente). Geen gemeentelijke belastingplicht voor elk adres verondersteld. |
+| Riool tegenover waterzuivering en drinkwater | [Rijksoverheid: riolering en afvalwaterzuivering](https://www.rijksoverheid.nl/themas/klimaat-milieu-en-natuur/water/vraag-en-antwoord/waterschappen/hoe-wordt-de-riolering-en-afvalwaterzuivering-betaald). Geen landelijke tarieven of kamerbewonersaanslag overgenomen. |
+| Huurders van woningen betalen geen OZB | [Waarderingskamer: WOZ en gemeentebelastingen](https://www.waarderingskamer.nl/woz-wijzer/uitleg-woz-waarde/gebruik-van-de-woz-waarde/woz-en-de-gemeentebelastingen). De passage over gebruikers van woningen is expliciet gecontroleerd. |
+| Behouden tekst: begroten, servicekosten, borg, toeslagwoonruimte, kale huur en energieafrekening | De zes bestaande bronnen in de eerdere tabel zijn opnieuw geopend: Nibud Scholieren, Rijksoverheid servicekosten/borg, Dienst Toeslagen woonruimte/rekenhuur, ACM energierekening. Onder meer de daadwerkelijke voorschotverrekening en het vanaf 2026 vervallen van servicekosten in de rekenhuur gecontroleerd. |
+
+Jaarbedragen delen, betaalmomenten bewaren en een haalbare reserve apart zetten zijn praktische suggesties, zonder verplichte of universele buffernorm. Dit kostenoverzicht vervangt geen volledige heffingen- of toeslaggids; de betreffende vragen blijven in de backlog open.
+
+### Nieuw: Je rechten en plichten als huurder
+
+Slug `je-rechten-en-plichten-als-huurder`, categorie `woning-en-huurcontract`, anker `huurafspraken`. Beantwoordt rechten en verantwoordelijkheden, kleine aanpassingen, onderhoudsverdeling en het aanpakken van een meningsverschil.
+
+| Onderdeel | Geopende primaire pagina en resultaat |
+| --- | --- |
+| Huur op tijd, zorgvuldig gebruik, geen overlast; huur- en huurprijsbescherming onderscheiden | [Rijksoverheid: rechten en plichten](https://www.rijksoverheid.nl/documenten/vraag-en-antwoord/woning-huren/welke-rechten-en-plichten-heb-ik-als-huurder). Geen volledige uitzonderingsregeling of individuele aanspraak afgeleid. |
+| Toegang verhuurder met toestemming en nooduitzondering; schriftelijke informatie en meldpunt | [Volkshuisvesting Nederland: landelijke verhuurregels](https://www.volkshuisvestingnederland.nl/onderwerpen/huren-en-wonen/wet-goed-verhuurderschap/landelijke-regels-van-goed-verhuurderschap). |
+| Groot tegenover klein onderhoud, voorbeelden en gebrek melden | [Rijksoverheid: verdeling onderhoudskosten](https://www.rijksoverheid.nl/themas/bouwen-en-wonen/woning-verhuren/woning-verhuren-wat-moet-ik-regelen/vraag-en-antwoord/woning-huren/welke-kosten-zijn-voor-de-huurder-en-welke-voor-de-verhuurder). Voorwaarden zoals bereikbaarheid niet weggelaten; geen opdracht aan onervaren huurder om installaties te repareren. |
+| Eenvoudig terug te draaien aanpassing tegenover renovatie | [Rijksoverheid: verbouwen](https://www.rijksoverheid.nl/documenten/vraag-en-antwoord/woning-huren/mag-ik-mijn-huurwoning-verbouwen-of-renoveren). Boren als beperkt voorbeeld; niet iedere wijziging is automatisch toegestaan. |
+| Route afhankelijk van onderwerp, huurvorm en contractdatum; huurverlaging tegenover herstel afdwingen | [Rijksoverheid: Huurcommissie, gemeente en kantonrechter](https://www.rijksoverheid.nl/themas/bouwen-en-wonen/woning-verhuren/woning-verhuren-wat-moet-ik-regelen/vraag-en-antwoord/woning-huren/wanneer-kan-ik-terecht-bij-de-huurcommissie-en-wanneer-bij-de-kantonrechter). |
+
+Het artikel geeft een bruikbare basis en stappen bij een probleem; geen volledige opzeggingsprocedure, landelijke huisregels of contractbeoordeling. De huisregelvraag blijft gedeeltelijk. Een probleem schriftelijk beschrijven, bewijs bewaren en niet zelfstandig een betaalconflict creëren zijn praktische handelingssuggesties.
+
+### Nieuw: Een vloer kiezen voor vloerverwarming
+
+Slug `een-vloer-kiezen-voor-vloerverwarming`, categorie `verhuizen-en-inrichten`, anker `inrichting-en-vloeren`. Beantwoordt materiaalkeuze en de controle van de hele vloeropbouw.
+
+| Onderdeel | Geopende primaire pagina en resultaat |
+| --- | --- |
+| Materialen, warmteweerstand, dik tapijt en invloed legwijze bij hout | [Milieu Centraal: vloeren en vloerbedekking](https://www.milieucentraal.nl/huis-en-tuin/klussen/vloeren-en-vloerbedekking/). Geen merk als beste keuze of universeel geschikte vloer aangewezen. |
+| Fabrikant stelt verschillende eisen per vloertype en verwarming/koeling; eigen laminaat zwevend met juiste ondervloer | [Quick-Step: eigen vloeren en vloerverwarming](https://www.quick-step.nl/nl-nl/vloerverwarming). Herkenbaar fabrikantvoorbeeld, geen algemene installatiehandleiding. |
+| Huurwijzigingen en toestemming | [Rijksoverheid: verbouwen](https://www.rijksoverheid.nl/documenten/vraag-en-antwoord/woning-huren/mag-ik-mijn-huurwoning-verbouwen-of-renoveren). Geen algemene toestemming voor iedere vloer of voorgeschreven geluidwaarde afgeleid. |
+
+Het technische PDF-bestand achter de algemene Quick-Step-pagina gaf bij openen een timeout (HTTP 400 bij de webreader). Het is niet als bron gebruikt. Er zijn daarom geen modelgebonden temperatuur-, vocht-, opstook- of weerstandsgrenzen uit dat document overgenomen. De toegankelijke algemene pagina's onderbouwen de gepubliceerde oriëntatie; de lezer wordt voor het gekozen product naar de eigen actuele handleiding en leverancier verwezen. Er is geen onopgeloste claim in dit artikel die van die PDF afhangt.
+
+### Nieuw: Wanneer heb je een ondervloer nodig?
+
+Slug `wanneer-heb-je-een-ondervloer-nodig`, dezelfde categorie en hetzelfde anker als vloerkeuze. Beantwoordt wel/geen losse laag, ondergrond, legwijze, warmte en geluid.
+
+| Onderdeel | Geopende primaire pagina en resultaat |
+| --- | --- |
+| Vlakke basis, passende laag, geluid en vocht | [Milieu Centraal: vloerbedekking](https://www.milieucentraal.nl/huis-en-tuin/klussen/vloeren-en-vloerbedekking/). Geen algemene belofte dat elke rol oneffenheden of vocht oplost. |
+| Geïntegreerde laag en geen aparte ondervloer bij genoemd product | [Quick-Step: altijd een pvc-ondervloer?](https://www.quick-step.nl/nl-nl/veelgestelde-vragen/pvc/voorbereiding-en-plaatsing/heb-ik-altijd-een-ondervloer-nodig). Uitsluitend Alpha Vinyl Pad als concreet productvoorbeeld. |
+| Verschillende ondervloeren per eigen laminaatsituatie | [Quick-Step: ondervloer kiezen](https://www.quick-step.nl/nl-nl/veelgestelde-vragen/laminaat/voorbereiding-en-plaatsing/waarom-quick-step-ondervloeren). Geen commercieel productadvies overgenomen. |
+| Geen algemene uitwisselbaarheid laminaat-/pvc-onderlaag | [Quick-Step: laminaatondervloer onder pvc](https://www.quick-step.nl/nl-nl/veelgestelde-vragen/pvc/voorbereiding-en-plaatsing/mag-ik-een-laminaatondervloer-gebruiken-voor-mijn-pvc-vloer). Reden drukvastheid/dikte gecontroleerd, beperkt tot fabrikantvoorbeeld. |
+
+Geluidseisen en legopbouw worden bij eigen huurcontract en product nagevraagd. Er is geen universele decibel-, dikte-, garantie- of installatie-eis bedacht. Foto's, gegevens en schriftelijk advies verzamelen zijn praktische voorbereidingen.
+
+## Validatie van de inventarisbatch
+
+- `npm run lint`: geslaagd (exitcode 0).
+- `npm run typecheck`: geslaagd (exitcode 0).
+- `npm run build`: geslaagd (exitcode 0); statische export met zeven categoriepagina's en tien artikelpagina's. De build meldt 21 gegenereerde pagina's inclusief frameworkvarianten.
+- Inventariscontrole: alle 78 unieke ID's precies eenmaal in de primaire registratierijen; 49 unieke artikeldoelen. Alle categorie/subcategoriecombinaties bestaan in de centrale definitie. Afgeronde doelen hebben een gepubliceerd bestand; de gemengde ID-statussen zijn afzonderlijk geteld.
+- Exportcontrole: alle tien artikelroutes, categorieplaatsing, categoriebroodkruimels, controledatum en retourankers gecontroleerd. Alle 219 interne linkverwijzingen in de gegenereerde HTML lossen op, inclusief ankers. Markdown-bronlinks zijn aanwezig in de bronmetadata; interne artikellinks hebben een bestaand doel.
+- Browsercontrole op 390 × 844 en 1440 × 900: homepage, categorieën en artikelen bekeken. De vier batchartikelen mobiel via de categorie geopend, de categoriebroodkruimel gecontroleerd en via de teruglink op een bestaand subcategorieanker uitgekomen. Geen horizontale overloop bij deze artikelen. Desktop toont de langere rechtenuitleg in het bestaande leesbare template. De nieuwe vloerartikelen staan samen onder `inrichting-en-vloeren`.
+- Onbekende categorie toont de bestaande niet-gevondenpagina; er wordt geen onbekende categorieroute geëxporteerd. Er zijn nu geen lege hoofdcategorieën om als actuele lege pagina te inspecteren; de lege-statuscode is ongewijzigd.
+
+De ontwikkelserver had aanvankelijk nog oude statische artikelparameters en gaf voor een nieuw bestand een 404. Na herstart zijn alle batchroutes in de browser bereikbaar. De productie-export bevatte ze al correct. Deze Next.js-ontwikkelserverbeperking staat in de README. Er zijn geen nieuwe dependencies, wijzigingen aan het ontwerp of bezoekersfuncties toegevoegd.
+
+## Uitkomst na de eerste inventarisbatch
+
+Deze batch heeft één bestaand artikel uitgebreid en drie nieuwe artikelen gepubliceerd met `draft: false` en `reviewedAt: "2026-10-23"`. Zes andere bestaande artikelen, inclusief tekst, bronnen en metadata, zijn ongewijzigd. Totaal: tien gepubliceerde artikelen; geen conceptbestanden en geen onopgeloste bronclaims binnen de gepubliceerde batch. Geplande inhoud is nog geen geverifieerd advies.
+
+De datum betreft de daadwerkelijke inhoudelijke controle, geen toekomstige garantie. Er is geen automatische bronbewaking. De servicekostenbron kondigt regels voor nieuwe contracten vanaf 2027 aan; die toekomstige opsomming is niet als huidige regel gebruikt. Controleer wijzigingen vóór uitbreiding van toeslagen, bijzondere huurvormen, servicekosten en technische productinstructies. De vier volgende artikeldoelen staan in het contentplan.
+
+## Inventarisbatch 2 — 23 oktober 2026
+
+Deze batch is een vervolg op de huidige repository, geen herhaling van batch 1. De bestaande contract-, verhuisdag-, rechten/plichten-, woonlasten- en energieartikelen zijn gelezen. Zij boden slechts gedeeltelijke antwoorden op de vier geplande doelen. Alle tien bestaande Markdown-artikelen blijven inhoudelijk en qua metadata ongewijzigd; de vier nieuwe pagina's gebruiken de reeds geplande slugs en bestaande categorie/subcategorie-ID's.
+
+### Inventaris en aanvullende toeslagen
+
+Alle 78 oorspronkelijke ID's behouden exact hun primaire artikeldoel. Nieuw afgerond: **WH-02, WH-03, GW-02, GW-03, GW-04, GW-05, EWI-01, EWI-02, EWI-06 en HV-01**. Voortgang oorspronkelijk: **31 van 78 afgerond**, 47 gepland/gedeeltelijk, bij 49 oorspronkelijke artikeldoelen.
+
+Vier aanvullende vragen zijn apart geregistreerd: TOES-01 zorgtoeslag, TOES-02 toetsingsinkomen, TOES-03 partner/medebewoners, TOES-04 voorschot/definitieve berekening/terugbetalen. Daarvan is **0 van 4 afgerond**. Basisuitleg in de huurtoeslaggids telt niet als volledige dekking van de bredere vragen. GW-05 omvat ook aanvragen en de officiële calculator; GW-06 blijft het doel voor wijzigingen doorgeven. AA-09 blijft breder over samen op één adres wonen, EWI-04 over energievoorschotten. Geen van die oorspronkelijke toewijzingen is vervangen.
+
+De subcategorie met ID `toeslagen` heet nu Toeslagen; het anker blijft gelijk. Alleen gepubliceerde inhoud verschijnt daar. De andere toeslagdoelen hebben geen Markdown-bestand of placeholderlink.
+
+### Controlewijze
+
+De onderstaande primaire pagina's zijn geopend en hun relevante tekstpassages zijn gelezen. Voor de officiële proefberekening is ook de browserweergave bekeken: de eerste vraag laat het toeslagjaar kiezen (onder meer 2026 en 2025). Er is geen persoonlijke aanvraag gedaan en er is geen fictieve berekeningsuitkomst als recht of bedrag gepubliceerd. Bijzondere inkomens- of vermogenssituaties blijven herkenbaar buiten de gewone berekening.
+
+### De sleuteloverdracht en de staat van je woning
+
+Slug `de-sleuteloverdracht-en-de-staat-van-je-woning`; categorie `woning-en-huurcontract`; subcategorie/retouranker `sleutel-en-onderhoud`. Na controle gepubliceerd met `draft: false` en `reviewedAt: "2026-10-23"`.
+
+| Geopende primaire bron | Gecontroleerde rol |
+| --- | --- |
+| [Rijksoverheid — Huurcontract en beginstaat](https://www.rijksoverheid.nl/themas/bouwen-en-wonen/woning-huren/vraag-en-antwoord/woning-huren/welke-afspraken-staan-er-in-het-huurcontract-van-mijn-woning) | Huurcontract en beginstaat |
+| [Ymere — Nieuwe huurder, voorbeeld van verhuurdersprocedures](https://www.ymere.nl/ik-huur/nieuwe-huurder/) | Nieuwe huurder, voorbeeld van verhuurdersprocedures |
+| [Rijksoverheid — Onderhoud en gebreken melden](https://www.rijksoverheid.nl/themas/bouwen-en-wonen/woning-verhuren/woning-verhuren-wat-moet-ik-regelen/vraag-en-antwoord/woning-huren/welke-kosten-zijn-voor-de-huurder-en-welke-voor-de-verhuurder) | Onderhoud en gebreken melden |
+
+- Rijksoverheid onderbouwt het schriftelijk vastleggen van de begintoestand en de afwijkende contractafspraken voor kamers/gedeelde ruimtes. Foto's ordenen, een rondgang, sleutels tellen en onenigheid expliciet noteren zijn praktische suggesties, geen extra wettelijke inspectieplicht.
+- De onderhoudspagina is gecontroleerd op gebrek melden en onderscheid huurder/verhuurder. Geen eigenmachtige huurinhouding, universele hersteltermijn of garantie op schadevergoeding opgenomen.
+- Ymere is uitsluitend een herkenbaar verhuurdersvoorbeeld voor meldroutes na oplevering. De pagina vermeldde tevens een tijdelijke storing in het eigen portaal; daarom verwijst het artikel naar de actuele contactroute en schrijft het geen verplicht account of vaste portaalroute voor. Ymere-termijnen, premies en algemene verzekeringsclaims zijn niet overgenomen.
+
+### Lokale belastingen en kwijtschelding onderzoeken
+
+Slug `lokale-belastingen-en-kwijtschelding`; categorie `geld-en-woonlasten`; subcategorie/retouranker `woonkosten`. Na controle gepubliceerd met `draft: false` en `reviewedAt: "2026-10-23"`.
+
+| Geopende primaire bron | Gecontroleerde rol |
+| --- | --- |
+| [Rijksoverheid — Gemeentelijke belastingen](https://www.rijksoverheid.nl/themas/werk/arbeidsovereenkomst-en-cao/vraag-en-antwoord/gemeenten/welke-belastingen-heft-de-gemeente) | Gemeentelijke belastingen |
+| [Waarderingskamer — OZB en huurders](https://www.waarderingskamer.nl/woz-wijzer/uitleg-woz-waarde/gebruik-van-de-woz-waarde/woz-en-de-gemeentebelastingen) | OZB en huurders |
+| [Unie van Waterschappen — Waterschapsbelasting](https://waterschappen.nl/waterschapsbelasting/) | Waterschapsbelasting |
+| [Rijksoverheid — Kwijtschelding gemeentelijke belastingen](https://www.rijksoverheid.nl/themas/overheid-en-democratie/bezwaar-en-beroep/vraag-en-antwoord/gemeenten/wanneer-kom-ik-in-aanmerking-voor-kwijtschelding-van-gemeentelijke-belastingen) | Kwijtschelding gemeentelijke belastingen |
+| [Gemeente Amsterdam — Kwijtschelding, lokaal voorbeeld](https://www.amsterdam.nl/belastingen/kwijtschelding/) | Kwijtschelding, lokaal voorbeeld |
+| [Belastingsamenwerking West-Brabant — Kwijtschelding](https://bwbrabant.nl/kwijtschelding) | Kwijtschelding |
+| [Belastingsamenwerking West-Brabant — Gemeente en waterschap, lokaal voorbeeld](https://bwbrabant.nl/bwb/veelgesteldevragen/vragen-over-kwijtschelding/kwijtschelding/heeft-u-de-aanslag-waterschapsbelastingen-ontvangen-en-heeft-u-kwijtschelding-gekregen-van-de-gemeente) | Gemeente en waterschap, lokaal voorbeeld |
+
+- Rijksoverheid en Waarderingskamer onderbouwen gemeentelijke variatie en geen OZB voor huurders van woningen. Unie van Waterschappen onderbouwt ingezetenen-/zuiveringsheffing en het onderscheid bij verhuizing. Geen bedrag of heffingsplicht voor elke losse kamer afgeleid.
+- Bij kamerhuur vraagt het artikel de uitvoerder om controle van belastingplicht en woonruimteregistratie. Het beweert niet dat iedere huisgenoot een volledige aanslag moet betalen en beoordeelt niet zonder stukken de doorberekening van een verhuurder.
+- Rijksoverheid onderbouwt toetsing aan inkomen, vermogen en uitgaven. BWB en Amsterdam zijn afzonderlijke lokale voorbeelden, geen landelijke normen. BWB vermeldt een aparte waterschapsaanvraag vanaf 2026 bij een losse aanslag; Amsterdam beschrijft een eigen aanvullende route. Geen lokale tarieven, grensbedragen, automatische betalingspauze of toekenning beloofd.
+- De stappen voor bewijsstukken, bevestiging en beslissing zijn praktische voorbereiding op wat de eigen uitvoerder vraagt. Bezwaar, kwijtschelding en betalingsregeling zijn uit elkaar gehouden; de lezer controleert de eigen termijn en betaalinstructies.
+
+### Huurtoeslag bij een kamer of zelfstandige woning
+
+Slug `huurtoeslag-bij-een-kamer-of-zelfstandige-woning`; categorie `geld-en-woonlasten`; subcategorie/retouranker `toeslagen`. Na controle gepubliceerd met `draft: false` en `reviewedAt: "2026-10-23"`.
+
+| Geopende primaire bron | Gecontroleerde rol |
+| --- | --- |
+| [Dienst Toeslagen — Alle voorwaarden huurtoeslag](https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/prive/toeslagen/huurtoeslag/voorwaarden/voorwaarden) | Alle voorwaarden huurtoeslag |
+| [Dienst Toeslagen — Woonruimte en uitzonderingen](https://www.belastingdienst.nl/wps/wcm/connect/nl/huurtoeslag/content/voor-welke-woningen-huurtoeslag) | Woonruimte en uitzonderingen |
+| [Dienst Toeslagen — Veranderingen vanaf 2026](https://www.belastingdienst.nl/wps/wcm/connect/nl/huurtoeslag/content/huurtoeslag-verandert-vanaf-2026) | Veranderingen vanaf 2026 |
+| [Dienst Toeslagen — Officiële proefberekening](https://www.belastingdienst.nl/wps/wcm/connect/nl/toeslagen/content/hulpmiddel-proefberekening-toeslagen) | Rekenhulp, beperkingen en browsercontrole van jaarselectie |
+| [Dienst Toeslagen — Huurtoeslag aanvragen](https://www.belastingdienst.nl/wps/wcm/connect/nl/huurtoeslag/content/hoe-moet-ik-huurtoeslag-aanvragen) | Huurtoeslag aanvragen |
+| [Dienst Toeslagen — Inkomen voor toeslagen berekenen](https://www.belastingdienst.nl/wps/wcm/connect/nl/toeslagen/content/wat-is-mijn-toetsingsinkomen) | Inkomen voor toeslagen berekenen |
+| [Dienst Toeslagen — Netto, bruto en toetsingsinkomen](https://www.belastingdienst.nl/wps/wcm/connect/nl/toeslagen/content/moet-ik-voor-toeslagen-mijn-netto-of-bruto-inkomen-opgeven) | Netto, bruto en toetsingsinkomen |
+| [Dienst Toeslagen — Een goede inkomensschatting](https://www.belastingdienst.nl/wps/wcm/connect/nl/toeslagen/content/hoe-zorg-ik-dat-jullie-mijn-toeslag-met-het-juiste-inkomen-berekenen) | Een goede inkomensschatting |
+| [Dienst Toeslagen — Toeslagpartner](https://www.belastingdienst.nl/wps/wcm/connect/nl/toeslagen/content/toeslagpartner) | Toeslagpartner |
+| [Dienst Toeslagen — Medebewoners](https://www.belastingdienst.nl/wps/wcm/connect/nl/huurtoeslag/content/wie-telt-als-medebewoner) | Medebewoners |
+| [Dienst Toeslagen — Verhuizing en nieuwe huur](https://www.belastingdienst.nl/wps/wcm/connect/nl/toeslagen/content/moet-ik-mijn-verhuizing-doorgeven) | Verhuizing en nieuwe huur |
+| [Dienst Toeslagen — Definitieve berekening en terugbetalen](https://www.belastingdienst.nl/wps/wcm/connect/nl/huurtoeslag/content/waarom-huurtoeslag-terugbetalen) | Definitieve berekening en terugbetalen |
+| [Dienst Toeslagen — Aanvraagtermijnen per jaar](https://www.belastingdienst.nl/wps/wcm/connect/nl/toeslagen/content/tot-wanneer-kan-ik-toeslag-aanvragen) | Aanvraagtermijnen per jaar |
+
+- Alle voorwaarden zijn gecontroleerd bij Dienst Toeslagen: woonruimte, overeenkomst, inkomen/vermogen, Nederland, bewonersinschrijving, eigenaar, leeftijd, nationaliteit/verblijf en aantoonbare huurbetaling. Kamer, zelfstandige woning, gedeelde gebouwingang en gesplitste woningen zijn onderscheiden; uitzonderingen verwijzen naar de daadwerkelijke pagina.
+- Het verschil 2025/2026 is gecontroleerd: toegang bij hogere huur, maximale huur voor berekening blijft, leeftijdsgrens jongeren en servicekosten. Geen algemene toeslaguitsluiting wegens hoge huur meer voor 2026 gesteld. Geen toeslagbedragen, inkomensgrenzen of universele berekening gepubliceerd.
+- Toetsingsinkomen is geen netto maandloon. Jaarinkomen, schatten en bijwerken zijn gecontroleerd; partner en medebewoner zijn verschillende begrippen. Het artikel verwijst bij uitzonderingen naar de officiële hulp en beslist geen individueel recht.
+- De proefberekeningpagina is toegankelijk, inclusief jaarselectie in de browser. De uitzonderingen bij bijzonder inkomen/vermogen zijn gelezen. Het artikel scheidt rekenhulp, aanvraag, voorschot en definitieve berekening.
+- De officiële aanvraagpagina is gelezen voor adres, huur/inkomen, Mijn toeslagen, aanvraag en bevestiging. De voorwaardenpagina onderbouwt daadwerkelijk wonen, de eerste van de maand en de meldtermijn. Alleen de expliciet gepubliceerde aanvraagdeadline voor 2025 (31 december 2026) is als gedateerd voorbeeld gebruikt; geen overname van verouderde septembertermijnen.
+- Voor een verhuizing is adresoverdracht via gemeente onderscheiden van de nieuwe huur zelf doorgeven. GW-06 blijft gedeeltelijk: de volledige wijzigingsroutes voor samenwonen en andere toeslagen zijn geen onderdeel van deze afgeronde aanvraagvraag.
+
+### Je installaties en meters vinden
+
+Slug `je-installaties-en-meters-vinden`; categorie `energie-water-en-internet`; subcategorie/retouranker `energiecontracten`. Na controle gepubliceerd met `draft: false` en `reviewedAt: "2026-10-23"`.
+
+| Geopende primaire bron | Gecontroleerde rol |
+| --- | --- |
+| [Liander — Wat zit er in de meterkast?](https://www.liander.nl/meterkast/wat-zit-er-in-de-meterkast) | Wat zit er in de meterkast? |
+| [Liander — Hoofdschakelaar](https://www.liander.nl/meterkast/hoofdschakelaar-verplicht) | Hoofdschakelaar |
+| [Liander — Meterstanden aflezen](https://www.liander.nl/meters-en-meterstanden/meterstanden-aflezen-en-doorgeven) | Meterstanden aflezen |
+| [Vitens — Watermeter en vindplaatsen](https://www.vitens.nl/service/watermeter) | Watermeter en vindplaatsen |
+| [Waternet — Hoofdkraan vinden](https://www.waternet.nl/veelgestelde-vragen/problemen-met-water/waar-vind-ik-de-hoofdkraan/) | Hoofdkraan vinden |
+| [Eneco — Warmtemeters aflezen, leveranciersvoorbeeld](https://www.eneco.nl/klantenservice/doorgeven-warmte/) | Warmtemeters aflezen, leveranciersvoorbeeld |
+| [Milieu Centraal — Verwarmingssystemen en afgiftesysteem](https://www.milieucentraal.nl/energie-besparen/energiezuinig-wonen/stappenplan-voor-een-energiezuinig-huis/) | Verwarmingssystemen en afgiftesysteem |
+
+- Liander is gelezen voor kastonderdelen, zegels, hoofdschakelaar en meterregisters. Codes zijn beperkt tot voorbeelden en niet als universeel menu gepubliceerd. Geen huurdersplicht tot zelf aanpassen van de installatie afgeleid uit klantgerichte netbeheerderinformatie.
+- Vitens en Waternet onderbouwen watermeterlocaties, aflezen en de hoofdkraan bij eigen/gedeelde voorzieningen. Geen algemene kleur- of locatiegarantie en geen opdracht om onveilig een kruipruimte in te gaan.
+- Eneco onderbouwt het onderscheid tussen GJ, m³ en verschillende warmtemeters/leveringen. Geen universele knopvolgorde of aantal warmtestanden opgenomen. Elk metertype en elke levering vraagt eigen instructies.
+- Milieu Centraal onderbouwt verwarmingsbron versus afgiftesysteem, cv, warmtepomp, hybride en warmtenet. De kernvraag wordt beantwoord met kenmerken én een praktische route: systeem door verhuurder laten benoemen, zichtbaar merk/type noteren, documentatie opvragen. Geen technische diagnose op alleen de aanwezigheid van radiatoren of een gasmeter.
+- Het artikel vult EWI-02 aan met stroomregisters, teruglevering, gas, drinkwater en eventuele warmte/koeling. Wie geen eigen meter of toegang heeft, krijgt instructies om de opname en bevestiging op te vragen. Geen algemene leverancierstermijn opgenomen.
+
+### Bereikbaarheid en begrenzing
+
+Een gevonden Milieu Centraal-URL `https://www.milieucentraal.nl/warmtenet/` gaf bij inhoudelijk openen 404. De zoekresultaatsamenvatting daarvan is niet als eindbewijs gebruikt. De toegankelijke actuele stappenplanpagina (doorgestuurd naar `energie-besparen/energiezuinig-wonen/`) en Eneco's daadwerkelijke meterpagina onderbouwen de gepubliceerde uitleg. De dode URL staat niet bij de artikelbronnen. Er blijft geen gepubliceerde claim van die pagina afhankelijk.
+
+De zorgtoeslag-, partner-, inkomen- en terugbetalingsverdiepingen blijven gepland. Hun vermelding en primaire aanknopingspunten in deze batch zijn geen volledige broncontrole voor toekomstige artikelen. Broncontrole geldt voor de huidige teksten, zonder automatische toekomstige bewaking.
+
+### Validatie batch 2
+
+- `npm run lint`: geslaagd, exitcode 0.
+- `npm run typecheck`: geslaagd, exitcode 0.
+- `npm run build`: geslaagd, exitcode 0. Statische export met zeven categoriepagina's en veertien artikelroutes; Next.js meldt 25 gegenereerde pagina's inclusief frameworkvarianten. `output: "export"`, beide `generateStaticParams`-routes en `dynamicParams: false` zijn behouden.
+- Inventaris: 82 unieke geregistreerde vragen, uitgesplitst in 78 oorspronkelijke en 4 aanvullende. Alle 78 oorspronkelijke primaire slugtoewijzingen zijn vergeleken met de beginsituatie en exact behouden. 31 oorspronkelijke vragen en 0 aanvullende vragen tellen als afgerond. Er zijn 53 unieke artikeldoelen: 49 oorspronkelijke plus 4 aanvullende.
+- Behoud: hashes van alle tien bestaande Markdown-artikelen zijn gelijk aan de beginsituatie. Bestaande artikel-URL's, bronnen, tekst, reviewedAt en draftwaarden zijn dus behouden. Alle veertien bestanden zijn gepubliceerd en hebben een controledatum; er zijn geen conceptbestanden of onopgeloste claims binnen deze batch.
+- Metadata en inhoud: categorie/subcategorieparen zijn geldig; iedere Markdown-bronlink staat in de bronmetadata en iedere interne artikellink heeft een bestaand doel.
+- Exportcontrole: plaatsing, categoriebroodkruimels, retourankers en controledatums voor alle veertien artikelen gecontroleerd. Alle 271 interne linkverwijzingen in de HTML lossen op, inclusief ankers. De geldcategorie toont Toeslagen op het bestaande anker `toeslagen`; de vier ongepubliceerde doelen hebben geen placeholderlinks.
+- Browser: desktop 1440 × 900 en mobiel 390 × 844 bekeken. De geldcategorie en langere huurtoeslagtekst blijven leesbaar in het bestaande template. Alle vier nieuwe artikelen mobiel via hun categorie geopend; Home/categoriebroodkruimels en teruglinks naar bestaande subcategorieankers gecontroleerd. Geen horizontale pagina-overloop; de metertabel past met 335 px binnen de mobiele inhoudsbreedte. De ontwikkelserver is herstart om nieuwe statische routeparameters in te lezen, zoals reeds in de README beschreven.
+
+Er zijn geen nieuwe dependencies of bezoekersfuncties toegevoegd. Alleen het label en de beschrijving van de bestaande toeslaggroep zijn verbreed. Geen publicatieblokkade bleef open; de aanvullende toeslagverdiepingen wachten op een volgende onderzoeks- en schrijfbatch.

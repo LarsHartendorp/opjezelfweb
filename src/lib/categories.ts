@@ -14,10 +14,10 @@ export const categories = [
     id: "geld-en-woonlasten",
     slug: "geld-en-woonlasten",
     label: "Geld en woonlasten",
-    description: "Krijg inzicht in je woonkosten, servicekosten en huurtoeslag.",
+    description: "Krijg inzicht in je woonkosten, servicekosten en toeslagen.",
     subcategories: [
       { id: "woonkosten", label: "Huur en andere woonkosten" },
-      { id: "toeslagen", label: "Huurtoeslag" },
+      { id: "toeslagen", label: "Toeslagen" },
     ],
   },
   {

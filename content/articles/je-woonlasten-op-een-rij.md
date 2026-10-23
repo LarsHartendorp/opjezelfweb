@@ -1,9 +1,17 @@
 ---
 title: Je woonlasten op een rij
-description: Maak onderscheid tussen maandelijkse kosten, startkosten en bedragen die je nog moet uitzoeken.
+description: Bekijk welke kosten bij een sociale huurwoning of kamer horen, van de eerste huur en borg tot energie, belastingen en reserves.
 category: geld-en-woonlasten
 subcategory: woonkosten
 sources:
+  - title: "Rijksoverheid — Sociale huur, middenhuur en vrije sector"
+    url: https://www.rijksoverheid.nl/themas/belastingen-uitkeringen-en-toeslagen/waardering-onroerende-zaken-woz/vraag-en-antwoord/huurwoning-zoeken/wat-is-het-verschil-tussen-een-sociale-huurwoning-een-middenhuurwoning-en-een-huurwoning-in-de-vrije-sector
+  - title: "Rijksoverheid — Gemeentelijke belastingen"
+    url: https://www.rijksoverheid.nl/themas/werk/arbeidsovereenkomst-en-cao/vraag-en-antwoord/gemeenten/welke-belastingen-heft-de-gemeente
+  - title: "Rijksoverheid — Rioolheffing en zuiveringsheffing"
+    url: https://www.rijksoverheid.nl/themas/klimaat-milieu-en-natuur/water/vraag-en-antwoord/waterschappen/hoe-wordt-de-riolering-en-afvalwaterzuivering-betaald
+  - title: "Waarderingskamer — Huurders en onroerendezaakbelasting"
+    url: https://www.waarderingskamer.nl/woz-wijzer/uitleg-woz-waarde/gebruik-van-de-woz-waarde/woz-en-de-gemeentebelastingen
   - title: "Nibud — Inkomsten en uitgaven"
     url: https://scholieren.nibud.nl/artikel/inkomsten-en-uitgaven/
   - title: "Rijksoverheid — Servicekosten en kosten voor energie en water"
@@ -20,9 +28,15 @@ reviewedAt: "2026-10-23"
 draft: false
 ---
 
-Je woonlasten zijn meer dan alleen de huur. Maak **een overzicht van terugkerende kosten én geld dat je bij de start nodig hebt**. Zet daar je inkomsten naast. Zo zie je welke bedragen bekend zijn en wat je nog moet uitzoeken.
+**Ook bij een sociale huurwoning betaal je meer dan de kale huur: denk aan afgesproken servicekosten, energie, water, lokale belastingen en je eigen huishouden.** Bij de start kunnen daar borg, verhuiskosten en inrichting bijkomen. Maak een overzicht van terugkerende kosten én geld dat je vooraf nodig hebt. Zet daar je inkomsten naast.
 
 Een **begroting** is een inschatting van je inkomsten en uitgaven. Dit is een praktische manier om vooruit te kijken, geen wettelijke verplichting. Het [Nibud legt uit hoe een maandbegroting werkt](https://scholieren.nibud.nl/artikel/inkomsten-en-uitgaven/). Die bron is geschreven voor scholieren; het principe van inkomsten en uitgaven vergelijken is ook bruikbaar bij je eerste woning.
+
+## Wat betekent sociale huur voor je kosten?
+
+Bij **sociale huur** gelden regels voor de maximale kale huur en huurverhoging. Dat maakt de totale woonlasten niet voor iedere huurder gelijk. De prijs voor jouw woning hangt onder meer samen met de kwaliteit van de woonruimte. Lees de [uitleg over sociale huur en andere huursectoren](https://www.rijksoverheid.nl/themas/belastingen-uitkeringen-en-toeslagen/waardering-onroerende-zaken-woz/vraag-en-antwoord/huurwoning-zoeken/wat-is-het-verschil-tussen-een-sociale-huurwoning-een-middenhuurwoning-en-een-huurwoning-in-de-vrije-sector).
+
+Vraag je verhuurder een overzicht met de kale huur, iedere bijkomende kostenpost, de eerste betaling en de betaaldatums. Vergelijk het aanbod met je contract. De benaming “sociale huur” betekent niet dat energie of inrichting inbegrepen is. Hieronder staat hoe je je eigen totaal samenstelt, zonder landelijke voorbeeldprijs.
 
 ## Begin met je eigen documenten
 
@@ -44,7 +58,21 @@ Denk bij je overzicht aan de volgende soorten uitgaven. Dit zijn voorbeelden, ge
 
 Bij een kamer kunnen voorzieningen gedeeld zijn en kunnen kosten via de verhuurder lopen. Vraag welk deel je zelf regelt. Bij een zelfstandige woning kunnen meer contracten op jouw naam nodig zijn, maar ook daar kan bijvoorbeeld warmte via de verhuurder lopen. De woonvorm alleen vertelt dus niet welke kosten inbegrepen zijn. Tel dezelfde kosten niet tweemaal mee.
 
-Praktische tip: reken een jaarlijks bedrag voor je gemiddelde begroting om naar een maandbedrag door het door twaalf te delen. Bewaar daarnaast de echte betaaldatum: een maandgemiddelde verandert niet wanneer je de rekening moet betalen.
+## Vergeet lokale belastingen niet
+
+Een **heffing** is een belasting voor een bepaalde publieke taak. Onderzoek bij jouw gemeente de afvalstoffenheffing en eventuele rioolheffing voor gebruikers. Welke belastingen er zijn en hoe hoog ze zijn, verschilt lokaal. Gebruik de [landelijke uitleg over gemeentelijke belastingen](https://www.rijksoverheid.nl/themas/werk/arbeidsovereenkomst-en-cao/vraag-en-antwoord/gemeenten/welke-belastingen-heft-de-gemeente) als vertrekpunt; zoek daarna op de gemeentelijke website op “belastingen huurwoning”.
+
+Het **waterschap**, de overheid die onder meer het regionale waterbeheer regelt, kan daarnaast belasting heffen. De **zuiveringsheffing** betaalt mee aan het schoonmaken van afvalwater. Dat is iets anders dan rioolheffing en je rekening voor drinkwater. De [Rijksoverheid legt het onderscheid tussen riool en waterzuivering uit](https://www.rijksoverheid.nl/themas/klimaat-milieu-en-natuur/water/vraag-en-antwoord/waterschappen/hoe-wordt-de-riolering-en-afvalwaterzuivering-betaald).
+
+Zoek bij de gemeente en het waterschap welke aanslag bij jouw adres en huishouden hoort. Een **aanslag** is het bericht met de belasting die betaald moet worden. Vraag bij kamerhuur wie de aanslag ontvangt en hoe eventuele doorberekening wordt onderbouwd. Tel een gedeelde rekening niet per bewoner opnieuw volledig op. Een zelfstandige woning heeft niet automatisch dezelfde aanslag als een kamer in een gedeeld huis.
+
+**Landelijke regel:** als huurder van een woning betaal je geen **onroerendezaakbelasting (OZB)**. Dat is voor woningen een eigenarenbelasting; zie de [uitleg van toezichthouder Waarderingskamer](https://www.waarderingskamer.nl/woz-wijzer/uitleg-woz-waarde/gebruik-van-de-woz-waarde/woz-en-de-gemeentebelastingen). Gebruik dus geen kostenlijst voor huiseigenaren als jouw huurdersbegroting.
+
+## Reserveer voor rekeningen en tegenvallers
+
+Praktische tip: deel een jaarlijks bedrag door twaalf voor je gemiddelde maandbegroting. Bewaar daarnaast de echte betaaldatum: een maandgemiddelde verandert niet wanneer je moet betalen. Begin je halverwege het jaar en komt de rekening eerder? Deel het nog benodigde bedrag door het aantal maanden tot de betaling.
+
+Houd een aparte reserve voor onverwachte kosten, zoals een kapot eigen apparaat of bijbetaling na een afrekening. Kies een haalbaar bedrag op basis van je eigen spullen en begroting; er staat hier geen universele buffernorm. Zet het geld zo mogelijk apart zodra je inkomen binnenkomt en bekijk na een rekening of je schatting nog klopt. Dit zijn praktische suggesties, geen verplichte spaarbedragen.
 
 ## Welk geld heb je bij de start nodig?
 
