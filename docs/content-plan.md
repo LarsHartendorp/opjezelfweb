@@ -1,15 +1,46 @@
 # Contentplan en redactionele backlog
 
-Voor mensen die een woning hebben geaccepteerd en zich voorbereiden op zelfstandig wonen. Kamerhuur en zelfstandige huur krijgen aandacht waar ze verschillen. Dit plan verwerkt alle **78 unieke input-ID's** uit [de oorspronkelijke inventaris](article-ideas.md), verdeeld over **49 artikeldoelen**. De oorspronkelijke vragen blijven daar letterlijk bewaard; hieronder krijgt ieder ID precies één primaire bestemming. Samengevoegde vragen staan op dezelfde rij.
+Voor mensen die een woning hebben geaccepteerd en zich voorbereiden op zelfstandig wonen. Kamerhuur en zelfstandige huur krijgen aandacht waar ze verschillen. Dit plan verwerkt alle **78 unieke input-ID's** uit [de oorspronkelijke inventaris](article-ideas.md), verdeeld over **49 artikeldoelen**. De oorspronkelijke vragen blijven daar letterlijk bewaard; hieronder houdt ieder ID zijn historische primaire gidsbestemming. Daarnaast registreren we zelfstandige vraagpagina's. Oude samenvoegingen blijven traceerbaar en zijn geen standaard voor nieuwe inhoud.
 
 De enige technische categoriebron blijft `src/lib/categories.ts`. Elke sectiekop hieronder is het bestaande categorie-id (tevens huidige URL-slug); iedere rij noemt een bestaand subcategorie-id, ook het stabiele retouranker. Slugs in deze backlog zijn redactionele doelen, geen klikbare placeholders. Alleen aanwezige gepubliceerde Markdown verschijnt op de website.
+
+## Vraaggericht werken — 26 oktober 2026
+
+De homepage en lokale zoekfunctie geven voorrang aan concrete vragen. **Onafhankelijke lezersvragen blijven zelfstandig vindbaar**, ook als ze dezelfde gids als verdere uitleg gebruiken. De eerdere batchbesluiten en 53 gidsdoelen hierboven/onder blijven bewaard als historische mappings; nieuwe vragen hoeven niet in die paraplu's op te gaan.
+
+De collectie bevat nu **22 bestaande gidsen en 12 zelfstandige korte antwoorden**. De antwoorden staan elk eenmaal in de Markdown-body. Homepage, zoekresultaten en eigen URL gebruiken dezelfde inhoud. De vraagpagina's hieronder zijn na controle gepubliceerd op 26 oktober 2026. Ze leveren geen extra afgeronde inventaris-ID's op: voortgang blijft **35/78 oorspronkelijk** en **4/4 aanvullende toeslagvragen**. Een smal antwoord vervangt geen brede vraagdekking.
+
+| Bestaand input-ID | Zelfstandig vraagdoel | Afbakening | Status |
+| --- | --- | --- | --- |
+| WH-04 | `waarvoor-betaal-ik-borg` — Waarvoor betaal ik borg en welk bewijs bewaar ik? | De bedoeling van de waarborgsom en bewijs van je betaling. Verdere uitleg: `je-huurcontract-lezen`. | Gepubliceerd; zelfstandig vindbaar, geen extra ID-afronding |
+| WH-04 | `hoeveel-borg-mag-de-verhuurder-vragen` — Hoeveel borg mag de verhuurder vragen? | De maximale borg hangt af van de datum van je huurcontract. Verdere uitleg: `je-huurcontract-lezen`. | Gepubliceerd; zelfstandig vindbaar, geen extra ID-afronding |
+| WH-01 | `wat-zijn-servicekosten` — Wat zijn servicekosten? | Welke bijkomende kosten je naast de kale huur kunt tegenkomen. Verdere uitleg: `je-woonlasten-op-een-rij`. | Gepubliceerd; zelfstandig vindbaar, geen extra ID-afronding |
+| USER-02 | `hoe-vraag-ik-een-afvalpas-aan` — Hoe vraag ik een afvalpas aan? | Vind de aanvraagroute voor je eigen adres. Verdere uitleg: `een-afvalpas-aanvragen`. | Gepubliceerd; zelfstandig vindbaar, geen extra ID-afronding |
+| USER-01 | `moet-ik-zelf-een-energiecontract-afsluiten` — Moet ik zelf een energiecontract afsluiten? | Controleer eerst wie de levering van stroom en gas regelt. Verdere uitleg: `een-energiecontract-regelen`. | Gepubliceerd; zelfstandig vindbaar, geen extra ID-afronding |
+| EWI-03 | `wat-is-het-verschil-tussen-een-leverancier-en-netbeheerder` — Wat is het verschil tussen een leverancier en netbeheerder? | Bij wie je terechtkunt voor je contract of aansluiting. Verdere uitleg: `een-energiecontract-regelen`. | Gepubliceerd; zelfstandig vindbaar, geen extra ID-afronding |
+| EWI-02 | `welke-meterstanden-noteer-ik-bij-de-sleuteloverdracht` — Welke meterstanden noteer ik bij de sleuteloverdracht? | Leg de beginstanden vast van de voorzieningen die er echt zijn. Verdere uitleg: `je-installaties-en-meters-vinden`. | Gepubliceerd; zelfstandig vindbaar, geen extra ID-afronding |
+| WH-06 | `mag-ik-gaten-boren-in-mijn-huurwoning` — Mag ik gaten boren in mijn huurwoning? | Het verschil tussen kleine aanpassingen en een verbouwing. Verdere uitleg: `je-rechten-en-plichten-als-huurder`. | Gepubliceerd; zelfstandig vindbaar, geen extra ID-afronding |
+| USER-04 | `welke-vloer-kan-op-vloerverwarming` — Welke vloer kan op vloerverwarming? | Controleer de hele vloeropbouw vóór je koopt. Verdere uitleg: `een-vloer-kiezen-voor-vloerverwarming`. | Gepubliceerd; zelfstandig vindbaar, geen extra ID-afronding |
+| USER-05 | `moet-er-een-ondervloer-onder-mijn-vloer` — Moet er een ondervloer onder mijn vloer? | Een extra laag is niet bij elk vloerproduct toegestaan. Verdere uitleg: `wanneer-heb-je-een-ondervloer-nodig`. | Gepubliceerd; zelfstandig vindbaar, geen extra ID-afronding |
+| GW-05 | `kan-ik-huurtoeslag-krijgen-voor-een-kamer` — Kan ik huurtoeslag krijgen voor een kamer? | Gedeelde voorzieningen maken verschil voor huurtoeslag. Verdere uitleg: `huurtoeslag-bij-een-kamer-of-zelfstandige-woning`. | Gepubliceerd; zelfstandig vindbaar, geen extra ID-afronding |
+| TOES-02 | `welk-inkomen-geef-ik-op-voor-toeslagen` — Welk inkomen geef ik op voor toeslagen? | Gebruik het jaarinkomen dat Dienst Toeslagen bedoelt. Verdere uitleg: `je-toetsingsinkomen-schatten`. | Gepubliceerd; zelfstandig vindbaar, geen extra ID-afronding |
+
+WH-04 heeft twee concrete ingangen: doel/betalingsbewijs en maximale hoogte. De tweede is een deelvraag bij hetzelfde bestaande onderwerp, geen hernummering van de inventaris. WH-01 krijgt een korte ingang voor servicekosten; kale huur en voorschotten blijven daarnaast relevant. GW-05 en TOES-02 krijgen een smalle eerste ingang en houden de bredere aanvraag-/inkomensgids. De overige bestaande en geplande vragen zijn niet geschrapt.
+
+### Vanaf nu in de backlog
+
+- Formuleer één concrete lezersvraag per nieuw kort antwoord en bepaal de volledige minimale uitleg, inclusief uitzonderingen.
+- Registreer de eigen slug en bestaande betrokken input-ID's. Houd een brede inventarisvraag gedeeltelijk totdat alle noodzakelijke onderdelen beantwoord zijn; meerdere gerichte vragen mogen samen dekking bieden.
+- Neem langere uitleg op in een gids of link naar een bestaande gids. Verwijs voor de kern niet alleen door: het korte antwoord moet de eigen vraag zelf beantwoorden.
+- Voeg zoekwoorden en alleen nuttige verdere gidsen toe in dezelfde frontmatter. Maak geen aparte handmatig bijgehouden homepage- of zoekantwoordteksten.
+- De historische gidsdoelen blijven behouden. Splits toekomstige onderwerpen als “internet aanvragen” en “welke snelheid” in afzonderlijk vindbare vragen; hetzelfde geldt voor ventileren en schimmel herkennen. Dit register vervangt geen broncontrole.
 
 ## Betekenis van de registratie
 
 - **Afgerond:** de gepubliceerde tekst beantwoordt de genoemde inputvragen daadwerkelijk. Het betekent geen uitputtende behandeling van alle uitzonderingen.
 - **Gedeeltelijk:** het bestaande artikel noemt het onderwerp, maar het concrete gat staat in de laatste kolom. Dit telt niet als afgerond. Bij gemengde status worden de ID's afzonderlijk genoemd.
 - **Gepland:** nog te onderzoeken en te schrijven; geen conceptpagina aangemaakt. De laatste kolom noemt de redactionele onderzoeksvraag of blokkade. Zonder afgeronde broncontrole geen publicatie.
-- **Bestaand / nieuw / samengevoegd:** relatie tot de zeven oorspronkelijke artikelen en het vorige contentplan. Samengevoegd betekent één coherent artikeldoel voor meerdere inputvragen.
+- **Bestaand / nieuw / samengevoegd:** historische relatie tot de zeven oorspronkelijke artikelen en het vorige contentplan. Samengevoegd beschrijft een eerder gidsdoel; het is geen opdracht om toekomstige onafhankelijke vragen samen te voegen.
 - **P1:** eerstvolgende basisinformatie of veiligheid; **P2:** verdieping; **P3:** later praktisch detail. Binnen P1 zijn de batchkeuzes hieronder expliciet vastgelegd.
 
 ## Eerste batch en dekkingsbesluit
@@ -202,4 +233,4 @@ Controleer primaire pagina's zelf, inclusief ingangsdatums en uitzonderingen. Sc
 
 ## Volgende aanbevolen batch
 
-Volgende vier doelen: ventilatie en vocht herkennen (HV-05, HV-06, één bestaand artikeldoel), warmte bij stadsverwarming regelen (EWI-05), servicekosten en voorschotten controleren (GW-07), en de verwerking van een adresmelding controleren (AA-03, uitbreiding van het bestaande artikel). Controleer bij servicekosten de contractdatum en aangekondigde regels vanaf 2027. De oorspronkelijke 78 en de vier aanvullende vragen blijven apart geteld; afgeronde onderwerpen zijn geen beperking op later onderhoud.
+Volgende prioriteiten blijven ventilatie/vocht (HV-05 en HV-06), stadsverwarming (EWI-05), servicekostenafrekening (GW-07) en adresverwerking (AA-03). Begin telkens met afzonderlijke vragen, bijvoorbeeld hoe je een ventilatierooster gebruikt versus wat je bij een vochtplek doet. Behoud bestaande gidsbestemmingen en registreer de nieuwe korte URL's daarnaast. Controleer bij servicekosten de contractdatum en regels vanaf 2027. Een vraag over de betekenis van servicekosten rondt GW-07 over de volledige afrekening niet af.

@@ -11,3 +11,4 @@
 .empty { margin-top: 2rem; padding: 1.25rem; background: #fff; border: 1px solid var(--oj-border); border-radius: 0.6rem; }
 .returnLink { display: inline-block; font-weight: 700; margin-top: 2rem; padding-block: 0.5rem; }
 @media (max-width: $mantine-breakpoint-xs) { .main { padding-inline: 1.25rem; } }
+.kind { display: block; font-size: 0.8rem; font-weight: 700; color: var(--oj-muted); margin-bottom: 0.4rem; }

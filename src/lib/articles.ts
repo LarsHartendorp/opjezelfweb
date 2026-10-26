@@ -15,6 +15,9 @@ export type ArticleMetadata = {
   sources: ArticleSource[];
   reviewedAt: string | null;
   draft: boolean;
+  kind: "guide" | "question";
+  keywords: string[];
+  guides: string[];
 };
 export type Article = ArticleMetadata & { slug: string; content: string };
 
@@ -71,7 +74,18 @@ function validateMetadata(data: Record<string, unknown>, filename: string): Arti
     }
   }
   if (typeof data.draft !== "boolean") fail(filename, "draft moet true of false zijn.");
-  return { title, description, category: data.category, subcategory: data.subcategory, sources, reviewedAt, draft: data.draft };
+  const kind = data.kind === undefined ? "guide" : data.kind;
+  if (kind !== "guide" && kind !== "question") fail(filename, "kind moet guide of question zijn.");
+  const textList = (value: unknown, field: string): string[] => {
+    if (value === undefined) return [];
+    if (!Array.isArray(value)) fail(filename, field + " moet een lijst zijn.");
+    return [...new Set(value.map((item: unknown) => requiredText(item, field, filename)))];
+  };
+  const keywords = textList(data.keywords, "keywords");
+  const guides = textList(data.guides, "guides");
+  if (guides.some((slug) => !slugPattern.test(slug))) fail(filename, "guides bevat een ongeldige slug.");
+  if (kind === "question" && !data.draft && !reviewedAt) fail(filename, "een gepubliceerde vraag moet inhoudelijk gecontroleerd zijn.");
+  return { title, description, category: data.category, subcategory: data.subcategory, sources, reviewedAt, draft: data.draft, kind, keywords, guides };
 }
 
 // Alleen server/build-code importeert deze module.
@@ -92,6 +106,14 @@ export const getArticles = cache(async (): Promise<Article[]> => {
     const metadata = validateMetadata(parsed.data, name);
     return { ...metadata, slug, content: parsed.content };
   }));
+  for (const article of articles) {
+    for (const slug of article.guides) {
+      const guide = articles.find((candidate) => candidate.slug === slug);
+      if (!guide || guide.kind !== "guide" || (!article.draft && guide.draft)) {
+        fail(article.slug + ".md", "guides moet verwijzen naar bestaande gidsen, gepubliceerd bij een gepubliceerde vraag.");
+      }
+    }
+  }
   return articles.sort((a, b) => a.title.localeCompare(b.title, "nl"));
 });
 

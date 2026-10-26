@@ -1,20 +1,14 @@
-.main { max-width: 72rem; margin-inline: auto; padding: 0 2rem 4rem; }
-.hero { padding: 4.5rem 0; max-width: 49rem; }
+.main { max-width: 56rem; margin-inline: auto; padding: 0 2rem 4rem; }
+.hero { padding: 3.5rem 0 1.5rem; max-width: 46rem; }
 .eyebrow { margin: 0 0 1rem; color: #3f6655; font-weight: 700; font-size: 0.9rem; }
-.hero h1 { margin: 0; font-size: clamp(2.3rem, 5vw, 4rem); letter-spacing: -0.05em; line-height: 1.12; }
-.intro { max-width: 40rem; margin: 1.5rem 0; font-size: 1.15rem; color: var(--oj-muted); }
-.jumpLink { display: inline-flex; gap: 1rem; font-weight: 700; padding-block: 0.5rem; }
-.sectionHeading { padding-top: 2rem; border-top: 1px solid var(--oj-border); margin-bottom: 1.75rem; }
-.sectionHeading h2 { margin: 0; font-size: 1.75rem; letter-spacing: -0.03em; }
+.hero h1 { margin: 0; font-size: clamp(2rem, 5vw, 3.4rem); letter-spacing: -0.045em; line-height: 1.12; }
+.intro { max-width: 40rem; margin: 1.25rem 0; font-size: 1.1rem; color: var(--oj-muted); }
+.sectionHeading { padding-top: 1.75rem; border-top: 1px solid var(--oj-border); margin-top: 3rem; margin-bottom: 1rem; }
+.sectionHeading h2 { margin: 0; font-size: 1.4rem; letter-spacing: -0.025em; }
 .sectionHeading p { color: var(--oj-muted); margin-bottom: 0; }
-.grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; padding: 0; margin: 0; list-style: none; }
-.category { display: flex; flex-direction: column; height: 100%; background: #fff; border: 1px solid var(--oj-border); border-radius: 0.6rem; padding: 1.5rem; text-decoration: none; }
-.category:hover { border-color: #205c50; background: #f3f7f1; }
-.category h3 { font-size: 1.2rem; margin: 0 0 0.7rem; text-decoration: underline; text-underline-offset: 0.2em; }
-.category p { color: var(--oj-muted); margin: 0 0 1rem; }
-.cardAction { font-weight: 700; margin-top: auto; font-size: 0.95rem; }
+.grid { display: flex; flex-wrap: wrap; column-gap: 1.5rem; row-gap: 0.5rem; padding: 0; margin: 0; list-style: none; }
+.grid a { display: inline-block; padding-block: 0.5rem; }
 @media (max-width: $mantine-breakpoint-xs) {
   .main { padding-inline: 1.25rem; }
-  .hero { padding-block: 2rem; }
-  .grid { grid-template-columns: 1fr; }
+  .hero { padding-top: 2rem; }
 }

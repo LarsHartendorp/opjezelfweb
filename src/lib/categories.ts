@@ -99,3 +99,7 @@ export function getSubcategory(categoryId: CategoryId, id: SubcategoryId) {
 export function getCategoryPath(id: CategoryId) {
   return `/categorieen/${getCategory(id).slug}/`;
 }
+
+export function getCategoriesWithArticles(articles: ReadonlyArray<{ category: CategoryId }>) {
+  return categories.filter((category) => articles.some((article) => article.category === category.id));
+}

@@ -2,22 +2,22 @@
 
 ## Purpose and scope
 
-This file captures all article ideas discussed in the project conversation: 70 brainstorm topics, 7 original requests, and 1 additional washing-machine example. It contains **78 traceable reader questions**, not 78 mandatory standalone articles.
+This file captures all article ideas discussed in the project conversation: 70 brainstorm topics, 7 original requests, and 1 additional washing-machine example. It contains **78 traceable reader questions**. The question-first direction keeps independent questions independently findable, with longer guides as optional further reading.
 
-The audience has accepted a home and is preparing to live independently in the Netherlands. Website text and articles are Dutch. The website remains an information guide with a category overview, category pages with subcategory sections, and article pages.
+The audience has accepted a home and is preparing to live independently in the Netherlands. Website text and articles are Dutch. The homepage now prioritizes local search and short answers; category and article routes remain available.
 
 These are editorial ideas, not researched or verified advice.
 
 ## How to use this inventory
 
 - Reconcile these IDs with the repository's existing content plan and actual published articles.
-- Preserve every question. Related questions may share an article, but record all covered IDs and explain the grouping.
+- Preserve every question and its original ID. Do not automatically merge independent questions into an umbrella article. Existing grouped guide mappings remain historical context; record independently findable short-answer URLs alongside them.
 - Reuse suitable published articles. Do not create duplicate articles or discard existing planned subjects that are not listed here.
 - Use the repository's actual category and subcategory IDs. The group labels below are descriptive, not a replacement taxonomy.
 - For each input ID, record the target article slug, existing/new/merged relationship, editorial status, and any remaining coverage gap.
 - Mark a question covered only when the published article actually answers it, rather than merely mentioning the subject.
 - Keep this editorial tracking in repository documentation; do not add visitor progress features.
-- Research and write in batches of four articles. The first requested batch is USER-02, USER-03, USER-06, and USER-07. Closely related questions can be covered together if that produces a stronger article; fill the remaining batch slots from the next priorities.
+- Follow the current requested batch and backlog priorities. The original four-guide batches are historical planning, not a requirement to combine future independent questions. Keep each short answer focused and record when it answers only part of a broader inventory ID.
 - Preserve original wording here for traceability. Public article titles may be improved for clarity.
 
 ## Original requests

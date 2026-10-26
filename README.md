@@ -4,9 +4,9 @@ Een Nederlandstalige informatiewebsite voor mensen die een woning hebben geaccep
 
 ## Scope
 
-Drie paginatypen: de homepage `/` met zeven klikbare hoofdcategorieën, categoriepagina's op `/categorieen/[slug]/` met artikelen per subcategorie, en het gedeelde artikeltemplate op `/onderwerpen/[slug]/`. Subcategorieën zijn secties met vaste ankers binnen categoriepagina's, zonder eigen routes. Geen accounts, database, onboarding, personalisatie, checkboxes, taakstatussen of voortgangsopslag.
+Drie paginatypen: de homepage `/` met zoeken en direct leesbare korte antwoorden, categoriepagina's op `/categorieen/[slug]/` en vraag-/gidspagina's op `/onderwerpen/[slug]/`. Categorieën staan compact onderaan de homepage; lege categorieën verdwijnen alleen daar, hun definities en routes blijven bestaan. Subcategorieën behouden hun vaste ankers. Geen accounts, database, onboarding, personalisatie, checkboxes, taakstatussen of voortgangsopslag.
 
-Er zijn tweeëntwintig gepubliceerde artikelen. De vierde inventarisbatch voegt definitieve toeslagberekeningen en terugbetalen, drinkwater regelen, hulp bij betalingsproblemen en rook-/CO-melders toe. De vier teksten zijn op 26 oktober 2026 gecontroleerd aan primaire bronnen en hebben `draft: false` en `reviewedAt: "2026-10-26"`. Bestaande controledatums zijn behouden. De artikelen verwijzen naar de eerdere uitleg waar die de eigen lezersvraag al beantwoordt.
+Er zijn 22 bestaande gidsen en 12 nieuwe zelfstandige korte antwoorden. De korte vragen gaan over borg, servicekosten, afvalpas, energie, netbeheer, meterstanden, boren, vloeren en toeslagen. Ze zijn na primaire broncontrole gepubliceerd met `reviewedAt: "2026-10-26"`. Alle bestaande gidsbestanden, URL's en controledatums zijn behouden.
 
 De [ideeëninventaris](docs/article-ideas.md) bevat 78 oorspronkelijke vragen bij 49 artikeldoelen; hun primaire toewijzingen zijn behouden. Er zijn 35 oorspronkelijke vragen beantwoord en 43 gepland of gedeeltelijk. EWI-07, GW-10 en HV-04 zijn deze batch nieuw afgerond. De vier apart geregistreerde aanvullende toeslagvragen zijn nu alle vier afgerond (4/4), inclusief TOES-04. De categorie- en subcategorie-ID's en ankers zijn behouden. Deze redactionele registratie staat uitsluitend in documentatie; ongepubliceerde doelen krijgen geen placeholderlinks.
 
@@ -21,6 +21,7 @@ npm ci
 npm run dev
 npm run lint
 npm run typecheck
+npm run test:search
 npm run build
 ```
 
@@ -31,6 +32,8 @@ Toont een net toegevoegd of hernoemd Markdown-artikel lokaal nog een 404? Hersta
 `npm run build` maakt een volledige statische export in `out/`. Publiceer die map bij een statische host. Dankzij `trailingSlash: true` krijgen artikelen een eigen map met `index.html`. Configureer de host om `404.html` te gebruiken voor ontbrekende bestanden. `next start` is niet geschikt voor deze export; voor een lokale exportpreview kun je met een geïnstalleerde Python bijvoorbeeld `python -m http.server 3000 --directory out` gebruiken. De build gebruikt systeemlettertypen en haalt geen fonts of artikelen van internet op. Opnieuw bouwen is nodig na inhoudswijzigingen.
 
 ## Een artikel toevoegen
+
+Begin bij één concrete lezersvraag. Houd onafhankelijke vragen zelfstandig vindbaar; voeg ze niet automatisch samen omdat een gids hetzelfde onderwerp heeft. Behoud inventaris-ID's en registreer nieuwe vraag-URL's naast hun historische gidsbestemming in het contentplan. Langere gidsen blijven optionele verdere uitleg.
 
 1. Maak `content/articles/duidelijke-naam.md`. De bestandsnaam zonder `.md` bepaalt de slug; gebruik alleen kleine letters, cijfers en enkele koppeltekens. De URL wordt `/onderwerpen/duidelijke-naam/`. Gebruik geen aparte `slug` in de frontmatter.
 2. Voeg YAML-frontmatter toe met alle onderstaande velden. Kies `category` en een bijbehorende `subcategory` uit `src/lib/categories.ts`.
@@ -65,6 +68,16 @@ draft: true
 | huishouden-en-veiligheid | Huishouden en veiligheid |
 
 ## Structuur en afspraken
+
+### Korte vragen en zoeken
+
+- Een bestaande Markdown zonder `kind` blijft een gids. Voor een kort antwoord gebruik je `kind: question`, bijvoorbeeld `keywords: [borg, waarborgsom]` en optioneel `guides: [je-huurcontract-lezen]`. De bestaande verplichte metadatavelden blijven gelden. Een gepubliceerde vraag moet een controledatum hebben; eventuele gidsverwijzingen moeten naar bestaande, gepubliceerde gidsen wijzen. Een vraag hoeft geen overkoepelende gids te hebben. `keywords` en `guides` zijn optionele lijsten van niet-lege teksten, gidsverwijzingen zijn geldige slugs.
+- Schrijf het volledige korte antwoord in de Markdown-body, meestal een paar zinnen, met noodzakelijke voorwaarden en uitzonderingen. Voeg niet daarnaast een handmatig gekopieerd antwoordveld of homepagebestand toe. De gids- en bronlinks worden vanuit de metadata getoond.
+- `src/lib/search-index.ts` maakt tijdens de statische homepagebuild een compacte index: titel, URL, categorie, beschrijving en zoekwoorden; voor vragen ook hun canonieke antwoord, controledatum, bronnen en gidslinks. Gidsen leveren alleen metadata. Concepten en redactionele documenten ontbreken.
+- De index wordt als serialiseerbare data in de statische homepage opgenomen; er is geen runtime zoekendpoint of server nodig. De browser zoekt lokaal in `src/lib/search.ts`, zonder verzending of opslag van zoekopdrachten. Links uit resultaten laden niet preventief alle volledige gidsen.
+- Zoeken negeert hoofdletters, accenten en gangbare Nederlandse vraagwoorden. Een kleine woordenlijst ondersteunt onder meer waarborgsom/borg, milieupas/afvalpas, elektra/stroom en onderlaag/ondervloer. Alle overige zoekwoorden moeten matchen in vraag, antwoord, trefwoorden of gidsmetadata; vragen komen vóór gidsen. Het is geen algemene spellingscorrectie of semantische zoekmachine.
+- De homepage toont bij een lege zoekvraag acht korte vragen met native `details/summary`. Bij een zoekopdracht zijn antwoorden direct geopend. Enter brengt de toetsenbordfocus naar de resultatenkop; een rustige live-regio meldt aantallen. Zonder JavaScript blijven de acht uitklappers en categorielinks bruikbaar.
+- `npm run test:search` controleert synoniemen, prioritering, lege/mislukte zoekopdrachten, canonieke antwoorden, geldige gidslinks en de afwezigheid van volledige gidsteksten in de index. De test gebruikt de aanwezige TypeScript-installatie en Node; geen nieuwe dependencies.
 
 - `src/lib/articles.ts`: uitsluitend server/build-code, afgeschermd met `server-only`; lezen en valideren van lokale Markdown met gray-matter.
 - `src/lib/categories.ts`: enige bron voor categorie-id's, URL-slugs, Nederlandse labels, beschrijvingen en subcategorieën. De bestaande `label`-conventie is behouden. Id's blijven stabiel; de afzonderlijke `slug` bepaalt de categorie-URL (momenteel gelijk aan het id). De subcategorie-id bepaalt het sectie-anker. Wijzig deze id's niet bij een tekstuele titelwijziging.

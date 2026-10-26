@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "lint": "eslint",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "test:search": "node --test scripts/check-search.mjs"
   },
   "dependencies": {
     "@mantine/core": "^9.7.3",

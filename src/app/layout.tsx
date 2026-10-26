@@ -7,7 +7,7 @@ import styles from "./layout.module.css";
 
 export const metadata: Metadata = {
   title: { default: "Op Jezelf — wegwijs in zelfstandig wonen", template: "%s | Op Jezelf" },
-  description: "Een woning geaccepteerd? Lees begrijpelijke uitleg over zelfstandig wonen, van je huurcontract tot je huishouden, met links naar betrouwbare bronnen.",
+  description: "Een woning geaccepteerd? Zoek korte antwoorden op je vragen over huren, regelen en inrichten, met betrouwbare bronnen en praktische gidsen.",
   applicationName: "Op Jezelf",
 };
 
@@ -21,7 +21,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <header className={styles.header}>
             <div className={styles.headerInner}>
               <Link href="/" className={styles.brand}>Op Jezelf<span className={styles.brandDot} aria-hidden="true">.</span></Link>
-              <nav aria-label="Hoofdnavigatie"><Link href="/#categorieen">Alle onderwerpen</Link></nav>
+              <nav aria-label="Hoofdnavigatie"><Link href="/#zoeken">Vragen en zoeken</Link></nav>
             </div>
           </header>
           {children}

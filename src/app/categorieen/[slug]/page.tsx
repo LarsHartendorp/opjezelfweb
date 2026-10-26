@@ -43,6 +43,7 @@ export default async function CategoryPage({ params }: Props) {
                 <li key={article.slug}>
                   <Link href={`/onderwerpen/${article.slug}/`} className={styles.article}
                     aria-labelledby={article.slug + "-titel"} aria-describedby={article.slug + "-beschrijving"}>
+                    <span className={styles.kind}>{article.kind === "question" ? "Kort antwoord" : "Gids"}</span>
                     <h3 id={article.slug + "-titel"}>{article.title}</h3>
                     <p id={article.slug + "-beschrijving"}>{article.description}</p>
                   </Link>

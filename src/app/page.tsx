@@ -1,31 +1,32 @@
 import Link from "next/link";
-import { categories, getCategoryPath } from "@/lib/categories";
+import { QuestionSearch } from "@/components/question-search";
+import { getPublishedArticles } from "@/lib/articles";
+import { getCategoriesWithArticles, getCategoryPath } from "@/lib/categories";
+import { getSearchIndex } from "@/lib/search-index";
 import styles from "./page.module.css";
 
-export default function Home() {
+export default async function Home() {
+  const articles = await getPublishedArticles();
+  const visibleCategories = getCategoriesWithArticles(articles);
+  const entries = await getSearchIndex();
   return (
     <main id="inhoud" tabIndex={-1} className={styles.main}>
       <section className={styles.hero} aria-labelledby="welkom">
         <p className={styles.eyebrow}>Je eigen plek begint hier</p>
-        <h1 id="welkom">Een woning geaccepteerd.<br />En nu op jezelf.</h1>
-        <p className={styles.intro}>Er komt veel kijken bij zelfstandig wonen. Hier vind je begrijpelijke uitleg en betrouwbare bronnen, zodat je weet waar je meer kunt lezen.</p>
-        <a className={styles.jumpLink} href="#categorieen">Bekijk de categorieën <span aria-hidden="true">↓</span></a>
+        <h1 id="welkom">Een concrete vraag.<br />Een duidelijk antwoord.</h1>
+        <p className={styles.intro}>Een woning geaccepteerd? Vind korte antwoorden over huren, regelen en inrichten. Met betrouwbare bronnen en meer uitleg als je die nodig hebt.</p>
       </section>
+      <QuestionSearch entries={entries} />
       <section id="categorieen" aria-labelledby="categorieen-titel">
         <div className={styles.sectionHeading}>
-          <h2 id="categorieen-titel">Waar wil je meer over weten?</h2>
-          <p>Kies een categorie en ontdek de onderwerpen.</p>
+          <h2 id="categorieen-titel">Liever rondkijken?</h2>
+          <p>Bekijk vragen en gidsen per categorie.</p>
         </div>
         <nav aria-label="Categorieën">
           <ul className={styles.grid}>
-            {categories.map((category) => (
+            {visibleCategories.map((category) => (
               <li key={category.id} id={category.id}>
-                <Link href={getCategoryPath(category.id)} className={styles.category}
-                  aria-labelledby={category.id + "-titel"} aria-describedby={category.id + "-beschrijving"}>
-                  <h3 id={category.id + "-titel"}>{category.label}</h3>
-                  <p id={category.id + "-beschrijving"}>{category.description}</p>
-                  <span className={styles.cardAction} aria-hidden="true">Bekijk de categorie →</span>
-                </Link>
+                <Link href={getCategoryPath(category.id)}>{category.label} <span aria-hidden="true">→</span></Link>
               </li>
             ))}
           </ul>
