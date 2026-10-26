@@ -8,6 +8,10 @@
 .controls button:hover { background: #123c32; }
 .search > p, .status { color: var(--oj-muted); font-size: 0.95rem; }
 .section h2 { font-size: 1.6rem; margin: 0; letter-spacing: -0.025em; }
+.pagination { display: flex; flex-wrap: wrap; gap: 0.75rem; margin-block: 1rem 1.5rem; }
+.pagination button { min-height: 2.75rem; padding: 0.6rem 1rem; border: 1px solid #52786a; border-radius: 0.4rem; background: white; color: var(--oj-ink); font: inherit; font-weight: 700; cursor: pointer; }
+.pagination button:hover:not(:disabled) { background: #f0f5ee; }
+.pagination button:disabled { color: var(--oj-muted); border-color: var(--oj-border); cursor: default; }
 .questions { display: grid; gap: 0.7rem; }
 .question { border: 1px solid var(--oj-border); border-radius: 0.5rem; background: white; }
 .question summary { padding: 1rem 1.2rem; font-size: 1.1rem; font-weight: 700; cursor: pointer; }

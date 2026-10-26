@@ -4,16 +4,25 @@ import Link from "next/link";
 import { useRef, useState } from "react";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
-import { searchEntries, type SearchEntry } from "@/lib/search";
+import { getHomepageQuestions, getSearchPage, searchEntries, type SearchEntry } from "@/lib/search";
 import styles from "./question-search.module.css";
 
 export function QuestionSearch({ entries }: { entries: SearchEntry[] }) {
   const [query, setQuery] = useState("");
+  const [page, setPage] = useState(1);
   const heading = useRef<HTMLHeadingElement>(null);
   const active = query.trim().length > 0;
-  const results = active ? searchEntries(entries, query) : entries.filter((entry) => entry.kind === "question").slice(0, 8);
-  const questions = results.filter((entry) => entry.kind === "question");
-  const guides = results.filter((entry) => entry.kind === "guide");
+  const results = active ? searchEntries(entries, query) : getHomepageQuestions(entries);
+  const pagination = getSearchPage(results, page);
+  const visibleResults = active ? pagination.items : results;
+  const questions = visibleResults.filter((entry) => entry.kind === "question");
+  const guides = visibleResults.filter((entry) => entry.kind === "guide");
+  const questionCount = results.filter((entry) => entry.kind === "question").length;
+  const guideCount = results.length - questionCount;
+  function changePage(nextPage: number) {
+    setPage(nextPage);
+    heading.current?.focus();
+  }
 
   return (
     <section id="zoeken" className={styles.section} aria-label="Vragen en antwoorden zoeken">
@@ -23,16 +32,25 @@ export function QuestionSearch({ entries }: { entries: SearchEntry[] }) {
           <input id="zoekvraag" name="q" type="search" value={query} maxLength={160}
             placeholder="Bijvoorbeeld: borg, afvalpas of vloerverwarming"
             aria-describedby="zoektip" aria-controls="zoekresultaten"
-            onChange={(event) => setQuery(event.currentTarget.value)} />
+            onChange={(event) => { setQuery(event.currentTarget.value); setPage(1); }} />
           <button type="submit">Zoeken</button>
         </div>
         <p id="zoektip">Zoek op een vraag of een paar woorden. Of open hieronder een vraag om het antwoord te lezen.</p>
       </form>
       <div id="zoekresultaten">
-        <h2 ref={heading} tabIndex={-1}>{active ? "Zoekresultaten" : "Vragen voor je eigen plek"}</h2>
+        <h2 ref={heading} tabIndex={-1}>{active ? "Zoekresultaten" : "Vragen om mee te beginnen"}</h2>
         <p className={styles.status} role="status" aria-live="polite" aria-atomic="true">
-          {active ? `${questions.length} ${questions.length === 1 ? "vraag" : "vragen"} en ${guides.length} ${guides.length === 1 ? "gids" : "gidsen"} gevonden.` : "Een selectie van korte antwoorden. Zoek om alle vragen en gidsen te vinden."}
+          {active ? <>
+            {questionCount} {questionCount === 1 ? "vraag" : "vragen"} en {guideCount} {guideCount === 1 ? "gids" : "gidsen"} gevonden.
+            {!!results.length && <> Resultaten {pagination.firstResult}–{pagination.lastResult} van {results.length}. Pagina {pagination.currentPage} van {pagination.totalPages}.</>}
+          </> : "Een selectie van korte antwoorden. Zoek om alle vragen en gidsen te vinden."}
         </p>
+        {active && pagination.totalPages > 1 && <nav className={styles.pagination} aria-label="Pagina's met zoekresultaten">
+          <button type="button" aria-label="Vorige pagina" aria-controls="zoekresultaten" disabled={pagination.currentPage === 1}
+            onClick={() => changePage(pagination.currentPage - 1)}>← Vorige</button>
+          <button type="button" aria-label="Volgende pagina" aria-controls="zoekresultaten" disabled={pagination.currentPage === pagination.totalPages}
+            onClick={() => changePage(pagination.currentPage + 1)}>Volgende →</button>
+        </nav>}
         {active && !results.length && <p>Geen antwoord gevonden. Probeer een korter woord, zoals ‘huur’, ‘vloer’ of ‘toeslag’, of bekijk de <a href="#categorieen">categorieën</a>.</p>}
         <div className={styles.questions}>
           {questions.map((entry) => entry.kind === "question" && (

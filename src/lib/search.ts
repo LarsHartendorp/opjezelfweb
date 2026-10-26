@@ -16,6 +16,39 @@ export type SearchEntry =
     reviewedAt: string;
   });
 
+export const HOMEPAGE_QUESTION_LIMIT = 6;
+export const SEARCH_PAGE_SIZE = 8;
+
+// Editorial starting points across renting, utilities, administration and furnishing.
+export const HOMEPAGE_QUESTION_SLUGS = [
+  "hoeveel-borg-mag-de-verhuurder-vragen",
+  "moet-ik-zelf-een-energiecontract-afsluiten",
+  "welke-meterstanden-noteer-ik-bij-de-sleuteloverdracht",
+  "hoe-vraag-ik-een-afvalpas-aan",
+  "kan-ik-huurtoeslag-krijgen-voor-een-kamer",
+  "moet-er-een-ondervloer-onder-mijn-vloer",
+] as const;
+
+export function getHomepageQuestions(entries: SearchEntry[]): SearchEntry[] {
+  return HOMEPAGE_QUESTION_SLUGS.flatMap((slug) => {
+    const question = entries.find((entry) => entry.kind === "question" && entry.url === `/onderwerpen/${slug}/`);
+    return question ? [question] : [];
+  }).slice(0, HOMEPAGE_QUESTION_LIMIT);
+}
+
+export function getSearchPage(results: SearchEntry[], requestedPage: number) {
+  const totalPages = Math.ceil(results.length / SEARCH_PAGE_SIZE);
+  const currentPage = Math.max(1, Math.min(requestedPage, totalPages || 1));
+  const offset = (currentPage - 1) * SEARCH_PAGE_SIZE;
+  return {
+    items: results.slice(offset, offset + SEARCH_PAGE_SIZE),
+    currentPage,
+    totalPages,
+    firstResult: results.length ? offset + 1 : 0,
+    lastResult: Math.min(offset + SEARCH_PAGE_SIZE, results.length),
+  };
+}
+
 export function normalize(text: string): string {
   return text.toLocaleLowerCase("nl-NL").normalize("NFD").replace(/[\u0300-\u036f]/g, "")
     .replace(/[^a-z0-9]+/g, " ").trim();
