@@ -53,17 +53,17 @@ Dit is een afzonderlijk register naast de oorspronkelijke 78. Nieuwe ID's staan 
 | `toeslagen` | `zorgtoeslag-controleren-en-aanvragen` — Zorgtoeslag controleren en aanvragen | Hoe controleer en vraag ik zorgtoeslag aan? | TOES-01 | Aanvullend, nieuw | P1 / batch 3 | Afgerond | Verzekering, leeftijd, inkomen/vermogen per jaar, bijzondere situaties, proefberekening en aanvraagroute uitgewerkt. Verwijst voor inkomens- en partneruitleg naar de clusterartikelen. |
 | `toeslagen` | `je-toetsingsinkomen-schatten` — Je toetsingsinkomen schatten | Welk jaarinkomen telt mee en hoe maak ik een schatting? | TOES-02 | Aanvullend, nieuw | P1 / batch 3 | Afgerond | Toetsingsinkomen, wel/niet meetellende inkomsten, gegevens per periode, officiële inkomenshulp, jaarovergang en bijwerken uitgewerkt. Geen eigen calculator of individuele fiscale berekening. |
 | `toeslagen` | `toeslagpartner-en-medebewoners-begrijpen` — Toeslagpartner en medebewoners begrijpen | Wie telt mee voor mijn toeslag en wanneer verandert dat? | TOES-03 | Aanvullend, nieuw | P1 / batch 3 | Afgerond | Partnercriteria, huisgenoten versus medebewoners, ouder/kind vanaf 2025, onderhuur, verschillende adressen en ingangsdatums uitgewerkt. Meldhandelingen verwijzen naar GW-06. |
-| `toeslagen` | `voorschot-definitieve-berekening-en-terugbetalen` — Je toeslagberekening en terugbetalen begrijpen | Hoe verschillen voorschot en definitieve berekening en wat doe ik bij terugbetalen? | TOES-04 | Aanvullend, nieuw | P1 | Gepland; gedeeltelijke bestaande uitleg | Huurtoeslaggids geeft basis en bronroute. Vergelijking beschikkingen, te veel/te weinig, correctie en betalingsmogelijkheden voor meerdere toeslagen nog controleren. |
+| `toeslagen` | `voorschot-definitieve-berekening-en-terugbetalen` — Je toeslagberekening en terugbetalen begrijpen | Hoe verschillen voorschot en definitieve berekening en wat doe ik bij terugbetalen? | TOES-04 | Aanvullend, nieuw | P1 / batch 4 | Afgerond | Voorschot versus definitief, gegevens/jaar controleren, standaard en persoonlijke betalingsregeling, bezwaar en herziening uitgewerkt. Geen individuele regeling of uitkomst beloofd. |
 
 ## Derde batch — samenhangende toeslagartikelen
 
 De exacte mappings zijn vóór bewerking bevestigd aan de hand van de inventaris en dit plan. Geen nieuw ID of doelslug toegevoegd: TOES-01 → `zorgtoeslag-controleren-en-aanvragen`; TOES-02 → `je-toetsingsinkomen-schatten`; TOES-03 → `toeslagpartner-en-medebewoners-begrijpen`; GW-06 → `veranderingen-doorgeven-voor-je-toeslagen`. Alle vier zijn na primaire broncontrole gepubliceerd in `geld-en-woonlasten` / `toeslagen`. Bestaande categorie-ID's, ankers en URL's zijn behouden.
 
-**Actuele voortgang oorspronkelijk:** **32 van 78 afgerond**, **46 gepland of gedeeltelijk**. Alleen GW-06 is deze batch nieuw afgerond binnen de oorspronkelijke inventaris. Alle oorspronkelijke primaire artikeltoewijzingen blijven gelijk.
+**Stand na batch 3 — oorspronkelijk:** **32 van 78 afgerond**, **46 gepland of gedeeltelijk**. Alleen GW-06 is deze batch nieuw afgerond binnen de oorspronkelijke inventaris. Alle oorspronkelijke primaire artikeltoewijzingen blijven gelijk.
 
-**Actuele voortgang aanvullend:** **3 van 4 afgerond** (TOES-01, TOES-02, TOES-03). **TOES-04 blijft gepland en gedeeltelijk**, op `voorschot-definitieve-berekening-en-terugbetalen`. De korte uitleg over voorschotten en controle na wijzigingen is geen volledige uitwerking van definitieve berekening, correctie of terugbetalen. Er is geen placeholderroute voor TOES-04.
+**Stand na batch 3 — aanvullend:** **3 van 4 afgerond** (TOES-01, TOES-02, TOES-03). **TOES-04 blijft gepland en gedeeltelijk**, op `voorschot-definitieve-berekening-en-terugbetalen`. De korte uitleg over voorschotten en controle na wijzigingen is geen volledige uitwerking van definitieve berekening, correctie of terugbetalen. Er is geen placeholderroute voor TOES-04.
 
-Er zijn nu **18 gepubliceerde artikelen**, zonder Markdown-concepten. De eerdere batchbeschrijvingen zijn historische verantwoording; de registratierijen hieronder tonen de huidige status.
+Na batch 3 waren er **18 gepubliceerde artikelen**, zonder Markdown-concepten. De eerdere batchbeschrijvingen zijn historische verantwoording; de registratierijen hieronder tonen de huidige status.
 
 | Artikeldoel | Eigen lezersvraag en rol in de cluster |
 | --- | --- |
@@ -74,6 +74,23 @@ Er zijn nu **18 gepubliceerde artikelen**, zonder Markdown-concepten. De eerdere
 | Bestaande huurtoeslaggids | Behoud van GW-05 en de aanvraag-/calculatoruitleg; vier contextlinks naar de nieuwe artikelen toegevoegd. |
 
 De artikelen verwijzen naar elkaar waar uitleg nodig is, zonder complete inkomens-, partner- of wijzigingsgidsen te herhalen. Er is geen websitecalculator toegevoegd; berekeningen blijven bij de officiële tools. Grenzen en procedures worden per jaar gecontroleerd. Zie de broncontrole voor gelezen pagina's en publicatieafweging.
+
+## Vierde batch — afrekening, drinkwater, betalingshulp en melders
+
+De mappings zijn vóór bewerking bevestigd tegen de inventaris, de huidige registratierijen en de bestaande teksten. De vier bestaande doelen zijn gepubliceerd na primaire broncontrole op **26 oktober 2026**. Er zijn geen nieuwe ID's, slugs, categorieën of subcategorieën toegevoegd.
+
+| ID | Bestaand artikeldoel | Categorie / subcategorie |
+| --- | --- | --- |
+| TOES-04 | `voorschot-definitieve-berekening-en-terugbetalen` | `geld-en-woonlasten` / `toeslagen` |
+| EWI-07 | `water-regelen-in-je-nieuwe-woning` | `energie-water-en-internet` / `water-en-internet` |
+| GW-10 | `als-je-de-huur-of-een-rekening-niet-kunt-betalen` | `geld-en-woonlasten` / `woonkosten` |
+| HV-04 | `brandveilig-wonen-in-een-kamer-of-huurwoning` | `huishouden-en-veiligheid` / `veilig-en-gezond` |
+
+**Actuele voortgang oorspronkelijke inventaris: 35 van 78 afgerond; 43 gepland of gedeeltelijk.** Nieuw afgerond: EWI-07, GW-10 en HV-04. De aanvullende toeslagvragen tellen apart: **4 van 4 afgerond**, met TOES-04 als nieuwe afronding. Alle 82 primaire mappings en 53 artikeldoelen blijven behouden.
+
+Er zijn nu **22 gepubliceerde artikelen** en geen Markdown-concepten. Het wijzigingsartikel verwijst voortaan naar de gepubliceerde afrekeningsgids; alleen die contextzin is vervangen, met behoud van de eerdere controledatum en bronmetadata. De andere zeventien bestaande artikelen zijn ongewijzigd. De basisartikelen over inkomen, bewoners en meldhandelingen blijven hun eigen rol houden.
+
+HV-04 behoudt het eerdere brede brandveiligheidsdoel: naast rook- en CO-melders ook vluchtvoorbereiding en handelen bij alarm. Het artikel is geen individueel brandveiligheidsontwerp voor een kamergebouw. Leveranciersprocedures, persoonlijke toeslagbesluiten en juridische schuldhulpuitkomsten worden evenmin als algemeen gegarandeerd voorgesteld. Zie de broncontrole voor de daadwerkelijke verificatie en begrenzing.
 
 ## Woning en huurcontract
 
@@ -98,7 +115,7 @@ Categorie-id en URL-slug: `geld-en-woonlasten`.
 | `toeslagen` | `huurtoeslag-bij-een-kamer-of-zelfstandige-woning` — Huurtoeslag bij een kamer of zelfstandige woning | Hoe controleer ik of ik huurtoeslag kan aanvragen? | GW-05 | Nieuw | P1 / batch 2 | Afgerond | Voorwaarden, woonvorm, toeslagjaar, officiële proefberekening en aanvraag in Mijn toeslagen uitgewerkt. Geen individueel toeslagrecht vastgesteld; calculator is onderdeel van dit doel, geen dubbel artikel. |
 | `toeslagen` | `veranderingen-doorgeven-voor-je-toeslagen` — Veranderingen doorgeven voor je toeslagen | Welke veranderingen geef ik zelf door? | GW-06 | Nieuw | P1 / batch 3 | Afgerond | Verhuizing/adres versus nieuwe huur, inkomensschatting, samenwonen, onderhuur, overige wijzigingsroutes, echte datums, juiste jaar, controle na indienen en hulp uitgewerkt. |
 | `woonkosten` | `servicekosten-en-voorschotten-begrijpen` — Servicekosten en voorschotten begrijpen | Hoe controleer ik de jaarlijkse afrekening van mijn verhuurder? | GW-07 | Gepland | P2 | Gepland; gedeeltelijke bestaande uitleg | Voorschot en jaarlijkse specificatie staan in woonlasten; rekencontrole, verdeelsleutels en betwisten ontbreken. Onderscheid contracten vóór/vanaf 2027 onderzoeken. |
-| `woonkosten` | `als-je-de-huur-of-een-rekening-niet-kunt-betalen` — Als je de huur of een rekening niet kunt betalen | Waar vraag ik tijdig hulp bij betalingsproblemen? | GW-10 | Gepland | P1 | Gepland | Actuele gemeentelijke schuldhulp en contact met schuldeiser onderzoeken; geen algemene incassotermijnen verzinnen. |
+| `woonkosten` | `als-je-de-huur-of-een-rekening-niet-kunt-betalen` — Als je de huur of een rekening niet kunt betalen | Waar vraag ik tijdig hulp bij betalingsproblemen? | GW-10 | Gepland | P1 / batch 4 | Afgerond | Vroege contactstappen, overzicht, haalbare afspraken, gemeentelijke schuldhulp en spoed-/juridische routes uitgewerkt. Schuldeisersvoorwaarden en sectorspecifieke bescherming onderscheiden. |
 
 ## Adres en administratie
 
@@ -124,7 +141,7 @@ Categorie-id en URL-slug: `energie-water-en-internet`.
 | `energiecontracten` | `een-energiecontract-regelen` — Een energiecontract regelen | Wie levert energie en wat regel ik bij een verhuizing? | USER-01, EWI-03 | Bestaand, samengevoegd | P1 | Afgerond | Leverancier/netbeheerder, levering en startdatum daadwerkelijk uitgelegd. Verhuisstanden krijgen hieronder een volledige vervolguitleg. |
 | `energiecontracten` | `je-installaties-en-meters-vinden` — Je installaties en meters vinden | Welke meters, beginstanden, verwarming en afsluiters horen bij mijn woning? | EWI-01, EWI-02, EWI-06, HV-01 | Nieuw, samengevoegd | P1 / batch 2 | Afgerond | Vindplaatsen, eigen/gedeelde meters, nummer en registers, stroom/gas/water/warmte, verwarmingsbron versus afgifte, hoofdkraan en groepenkast uitgewerkt. Herkennen en lezen, geen reparatiehandleiding. |
 | `energiecontracten` | `warmte-regelen-bij-stadsverwarming` — Warmte regelen bij stadsverwarming | Wie levert mijn warmte en wat moet ik zelf regelen? | EWI-05 | Gepland | P2 | Gepland; gedeeltelijke bestaande uitleg | Energieartikel noemt geen vrije overstap; aanmelding, verhuurderlevering en factuurcontrole niet volledig uitgewerkt. |
-| `water-en-internet` | `water-regelen-in-je-nieuwe-woning` — Water regelen in je nieuwe woning | Hoe vind ik mijn waterbedrijf en meld ik mijn verhuizing? | EWI-07 | Gepland | P1 | Gepland | Regionale leverancier, eigen of gedeelde aansluiting en meterstanden onderzoeken. |
+| `water-en-internet` | `water-regelen-in-je-nieuwe-woning` — Water regelen in je nieuwe woning | Hoe vind ik mijn waterbedrijf en meld ik mijn verhuizing? | EWI-07 | Gepland | P1 / batch 4 | Afgerond | Waterbedrijf vinden, contracthouder bij zelfstandig/gedeeld wonen, startdatum, oud adres afmelden en beginstand uitgewerkt. Vitens is herkenbaar leveranciersvoorbeeld; een meter bewijst geen eigen contract. |
 | `water-en-internet` | `internet-regelen-voor-je-kamer-of-woning` — Internet regelen voor je kamer of woning | Wanneer vraag ik internet aan en welke snelheid past? | EWI-08, EWI-09 | Gepland, samengevoegd | P2 | Gepland | Beschikbaarheid, gedeeld abonnement, gebruik en leverdatum onderzoeken; geen universele snelheid of termijn. |
 | `water-en-internet` | `als-een-aansluiting-bij-verhuizing-niet-werkt` — Als een aansluiting bij verhuizing niet werkt | Wie benader ik als energie, water of internet ontbreekt? | EWI-10 | Gepland | P2 | Gepland | Storingen, ontbrekend contract en installatiefout afzonderlijk behandelen; veilige contactroutes controleren. |
 
@@ -168,7 +185,7 @@ Categorie-id en URL-slug: `huishouden-en-veiligheid`.
 | `veilig-en-gezond` | `een-afvalpas-aanvragen` — Een afvalpas aanvragen bij de gemeente | Hoe regel ik een afvalpas voor mijn adres? | USER-02 | Bestaand | P1 | Afgerond | Eigen gemeente vinden, bestaande pas, aanvraag, gedeelde bewoning en storing daadwerkelijk beantwoord. Geen batchslot gebruikt. |
 | `veilig-en-gezond` | `wat-te-doen-bij-een-lekkage` — Wat te doen bij een lekkage | Hoe beperk ik veilig schade en wie bel ik? | HV-02 | Gepland | P1 | Gepland | Waterbedrijf, verhuurder en verzekeraar als primaire routes onderzoeken; spoed en onveiligheid onderscheiden. |
 | `veilig-en-gezond` | `stroomstoring-in-huis` — Een stroomstoring in huis herkennen | Wat kan ik veilig controleren en wie helpt? | HV-03 | Gepland | P1 | Gepland | Netbeheerderinstructies en grens tussen wijkstoring en woninginstallatie controleren; geen riskante reparatieadviezen. |
-| `veilig-en-gezond` | `brandveilig-wonen-in-een-kamer-of-huurwoning` — Brandveilig wonen in een kamer of huurwoning | Welke melders en vluchtvoorbereiding passen bij mijn woning? | HV-04 | Gepland | P1 | Gepland; gedeeltelijke bestaande uitleg | Verhuisdag behandelt vrije vluchtroute. Rook-/CO-melders, verantwoordelijkheid en plaatsingsinstructies ontbreken; oorspronkelijke brandveiligheidsscope behouden. |
+| `veilig-en-gezond` | `brandveilig-wonen-in-een-kamer-of-huurwoning` — Brandveilig wonen: rookmelders en koolmonoxidemelders | Welke melders en vluchtvoorbereiding passen bij mijn woning? | HV-04 | Gepland | P1 / batch 4 | Afgerond | Rook/CO onderscheiden; verplichting versus advies, verhuurder/huurder, kamergebouw, plaatsing, modelgebonden onderhoud en vlucht-/noodinstructies gecontroleerd. |
 | `veilig-en-gezond` | `ventileren-en-vocht-herkennen` — Ventileren en vocht herkennen | Hoe ventileer ik en herken ik vocht of schimmel? | HV-05, HV-06 | Gepland, samengevoegd | P1 | Gepland | Ventilatiesysteem, warmteverlies en herkenning onderzoeken; gezondheid en bouwgebrek niet zelf diagnosticeren. |
 | `veilig-en-gezond` | `afval-scheiden-en-verhuisafval-afvoeren` — Afval scheiden en verhuisafval afvoeren | Wat mag waar en hoe regel ik grofvuil? | HV-07, HV-08 | Gepland, samengevoegd | P2 | Gepland | Afvalpas is alleen toegangsuitleg. Lokale afvalwijzer, brengpunt en ophaalregels nog onderzoeken. |
 | `samen-wonen` | `een-haalbare-schoonmaakroutine` — Een haalbare schoonmaakroutine maken | Hoe houd ik mijn woning met een werkbare routine schoon? | HV-09 | Gepland | P3 | Gepland | Praktische routine onderscheiden van product- en hygiëne-instructies; verwijs voor taakverdeling naar samen wonen. |
@@ -185,4 +202,4 @@ Controleer primaire pagina's zelf, inclusief ingangsdatums en uitzonderingen. Sc
 
 ## Volgende aanbevolen batch
 
-Volgende vier doelen: de definitieve toeslagberekening en terugbetalen (TOES-04), water regelen in je nieuwe woning (EWI-07), hulp als je huur of rekeningen niet kunt betalen (GW-10), en brandveilig wonen (HV-04). TOES-04 blijft dus uitdrukkelijk open voor een volgende batch. Daarna ventilatie en vocht (HV-05, HV-06). Tel nieuwe TOES-vragen steeds apart van de oorspronkelijke 78. De tabelprioriteiten blijven redactionele keuzes, geen bezoekersfunctionaliteit.
+Volgende vier doelen: ventilatie en vocht herkennen (HV-05, HV-06, één bestaand artikeldoel), warmte bij stadsverwarming regelen (EWI-05), servicekosten en voorschotten controleren (GW-07), en de verwerking van een adresmelding controleren (AA-03, uitbreiding van het bestaande artikel). Controleer bij servicekosten de contractdatum en aangekondigde regels vanaf 2027. De oorspronkelijke 78 en de vier aanvullende vragen blijven apart geteld; afgeronde onderwerpen zijn geen beperking op later onderhoud.

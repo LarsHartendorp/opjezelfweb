@@ -1,6 +1,6 @@
 # Broncontrole artikelen
 
-Gecontroleerd op **23 oktober 2026**. De volledige relevante passages op de primaire bronpagina's zijn gelezen; zoekresultaatsamenvattingen zijn niet als eindcontrole gebruikt. De bronnen staan ook in de frontmatter en als links bij de betreffende uitleg in de artikelen. Het bestaande schema is behouden.
+De eerste artikelen hieronder zijn gecontroleerd op **23 oktober 2026**; vervolgbatches vermelden hun eigen controledatum en begrenzing. De volledige relevante passages op de primaire bronpagina's zijn gelezen; zoekresultaatsamenvattingen zijn niet als eindcontrole gebruikt. De bronnen staan ook in de frontmatter en als links bij de betreffende uitleg in de artikelen. Het bestaande schema is behouden.
 
 ## Je huurcontract lezen
 
@@ -386,3 +386,99 @@ Er blijft geen specifieke verificatiekloof in deze vier gepubliceerde teksten. U
 - Browsercontrole: desktop 1440 × 900 en mobiel 390 × 844. De geldcategorie, lange partnertekst en zorgtoeslag zijn visueel bekeken; alle vier nieuwe artikelen zijn via de categorie geopend. De tabel met woonsituaties brak woorden onhandig af op mobiel en is vervangen door vier leesbare tekstpunten binnen hetzelfde template. Geen horizontale pagina-overloop (inhoud 375 px bij viewport 390 px).
 - De retourlink is in de browser gevolgd naar `/categorieen/geld-en-woonlasten/#toeslagen`. Ook de contextnavigatie wijzigingen → huurtoeslag → zorgtoeslag is doorlopen. De overige contextlinks en alle categoriebroodkruimels zijn in de export gecontroleerd.
 - Geen persoonlijke gegevens ingevoerd en geen daadwerkelijke toeslagaanvraag ingediend. De officiële tools zijn bron- en hulpmiddelverwijzingen; er is geen individuele berekening gevalideerd.
+
+
+## Inventarisbatch 4 — afrekening, water, geldzorgen en melders (26 oktober 2026)
+
+Vooraf zijn de repository-instructies, het actuele contentplan, de inventaris, het schema, categorieën, bronverantwoording en relevante gepubliceerde teksten gelezen. De vier mappings zijn bevestigd vóór het schrijven; alle oorspronkelijke en aanvullende toewijzingen blijven gelijk. De hieronder genoemde primaire pagina's zijn daadwerkelijk geopend en de relevante passages zijn gelezen op **26 oktober 2026**. Zoekresultaatsamenvattingen zijn geen eindbewijs. Alle vier nieuwe bestanden hebben na die controle `draft: false` en `reviewedAt: "2026-10-26"`.
+
+### Je toeslagberekening en terugbetalen begrijpen
+
+Doel `voorschot-definitieve-berekening-en-terugbetalen`; `geld-en-woonlasten` / `toeslagen`.
+
+| Geopende primaire bron | Rol in de controle |
+| --- | --- |
+| [Dienst Toeslagen — Voorschotbeschikking](https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/prive/toeslagen/hoe_werken_toeslagen/uitbetaling_toeslagen/berekening/wat_is_een_voorschotbeschikking) | Voorschotbeschikking |
+| [Dienst Toeslagen — Definitieve berekening](https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/prive/toeslagen/hoe_werken_toeslagen/uitbetaling_toeslagen/berekening/definitieve-berekening/) | Definitieve berekening |
+| [Dienst Toeslagen — Terugbetalen](https://www.belastingdienst.nl/wps/wcm/connect/nl/toeslag-terugbetalen/content/hoe-kan-ik-toeslag-terugbetalen) | Terugbetalen |
+| [Dienst Toeslagen — Betalingsregeling](https://www.belastingdienst.nl/wps/wcm/connect/nl/toeslag-terugbetalen/content/kan-ik-een-betalingsregeling-krijgen) | Betalingsregeling |
+| [Dienst Toeslagen — Persoonlijke betalingsregeling](https://www.belastingdienst.nl/wps/wcm/connect/nl/toeslag-terugbetalen/content/persoonlijke-betalingsregeling-toeslagen) | Persoonlijke betalingsregeling |
+| [Dienst Toeslagen — Verzoek persoonlijke betalingsregeling](https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/themaoverstijgend/programmas_en_formulieren/verzoek_persoonlijke_betalingsregeling) | Verzoek persoonlijke betalingsregeling |
+| [Dienst Toeslagen — Klopt mijn toeslag en moet ik bezwaar maken?](https://www.belastingdienst.nl/wps/wcm/connect/nl/toeslagen/content/mijn-toeslag-klopt-niet) | Klopt mijn toeslag en moet ik bezwaar maken? |
+| [Dienst Toeslagen — Bezwaar tegen definitieve berekening](https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/prive/toeslagen/hoe_werken_toeslagen/niet_met_ons_eens_toeslagen/bezwaar_maken/hoe-maak-ik-bezwaar-tegen-een-definitieve-berekening) | Bezwaar tegen definitieve berekening |
+| [Dienst Toeslagen — Herziening vragen](https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/prive/toeslagen/hoe_werken_toeslagen/niet_met_ons_eens_toeslagen/verzoek-om-een-beslissing-over-een-toeslag-te-herzien) | Herziening vragen |
+
+Gecontroleerd: schatting en voorschotbeschikking versus definitief recht na ontvangst van inkomens-/leveranciersgegevens; toeslagjaar versus ontvangstdatum; gebruikte personen en bedragen controleren. Standaardregeling tot 24 maanden, eerste termijn en rente zijn gelezen; de actuele rentevoet wordt niet overgenomen. Persoonlijke regeling is een aanvraag met beoordeling, geen gegarandeerde verlaging. De benodigde gegevens zijn gecontroleerd aan de formulierpagina. Bezwaar binnen zes weken, uitzonderingen op betaaluitstel en herziening zijn apart gelezen. Het artikel verwijst naar de daadwerkelijke procedures, zonder alle herzieningsuitzonderingen of individuele uitkomsten zelf te bepalen.
+
+### Water regelen in je nieuwe woning
+
+Doel `water-regelen-in-je-nieuwe-woning`; `energie-water-en-internet` / `water-en-internet`.
+
+| Geopende primaire bron | Rol in de controle |
+| --- | --- |
+| [Rijksoverheid — Verhuizing melden bij drinkwaterbedrijf](https://www.rijksoverheid.nl/themas/klimaat-milieu-en-natuur/drinkwater/vraag-en-antwoord/drinkwater/verhuizing-melden-bij-drinkwaterbedrijf) | Verhuizing melden bij drinkwaterbedrijf |
+| [Vewin — Kaart waterbedrijven](https://www.vewin.nl/kaart/) | Kaart waterbedrijven |
+| [Rijksoverheid — Servicekosten en nutsvoorzieningen](https://www.rijksoverheid.nl/themas/belastingen-uitkeringen-en-toeslagen/waardering-onroerende-zaken-woz/vraag-en-antwoord/woning-huren/waarom-betaal-ik-servicekosten-en-kosten-voor-gas-water-en-elektriciteit) | Servicekosten en nutsvoorzieningen |
+| [Huurcommissie — Nutsvoorzieningen met individuele meter](https://www.huurcommissie.nl/support/beleidsboeken/servicekosten/kosten-nutsvoorzieningen-met-een-individuele-meter) | Nutsvoorzieningen met individuele meter |
+| [Vitens — Verhuizen (leveranciersvoorbeeld)](https://www.vitens.nl/service/verhuizen) | Verhuizen (leveranciersvoorbeeld) |
+| [Vitens — Watermeter en aflezen (leveranciersvoorbeeld)](https://www.vitens.nl/service/watermeter) | Watermeter en aflezen (leveranciersvoorbeeld) |
+
+Gecontroleerd: leverancier vinden via de landelijke verwijzing naar Vewin, verhuizing bij dezelfde leverancier versus af-/aanmelden bij verschillende bedrijven, en datum/standen afstemmen. De Vewin-kaart is ook in de browser geopend: kaart, zoekveld en regionale bedrijven zichtbaar; geen locatie of persoonlijk adres ingevoerd. Rijksoverheid en Huurcommissie onderbouwen de eigen/gedeelde leveringsafspraken en het feit dat een individuele meter ook bij doorlevering door de verhuurder kan voorkomen. Vitens is uitsluitend leveranciersvoorbeeld voor meldroutes, twee adressen en aflezen. Geen universele aanmelddeadline, kleurcode of contractplicht voor elke kamer afgeleid.
+
+### Als je de huur of een rekening niet kunt betalen
+
+Doel `als-je-de-huur-of-een-rekening-niet-kunt-betalen`; `geld-en-woonlasten` / `woonkosten`.
+
+| Geopende primaire bron | Rol in de controle |
+| --- | --- |
+| [Rijksoverheid — Geldzorgen en schulden](https://www.rijksoverheid.nl/themas/levensgebeurtenissen/geld) | Geldzorgen en schulden |
+| [Rijksoverheid — Gemeentelijke hulp bij schulden](https://www.rijksoverheid.nl/themas/recht-veiligheid-en-defensie/schulden/schulden-aanpakken/vraag-en-antwoord/schulden/wat-doet-de-gemeente-om-mij-te-helpen-bij-schulden) | Gemeentelijke hulp bij schulden |
+| [Raad voor Rechtsbijstand / Rechtwijzer — Dreigende of spoedsituatie](https://rechtwijzer.nl/schulden/schuldhulpverlening-minnelijk-traject/geldproblemen-rekeningen-betalen/dreigende-spoedsituatie/) | Dreigende of spoedsituatie |
+| [Rechtspraak — Huurconflicten](https://www.rechtspraak.nl/onderwerpen/huurgeschil) | Huurconflicten |
+| [Rechtspraak — Uitgebreide huurprocedure](https://www.rechtspraak.nl/onderwerpen/huurgeschil/uitgebreide-procedure-huren) | Betekenis dagvaarding en afzonderlijk reageren op een procedure |
+| [ACM ConsuWijzer — Energierekening niet betaald](https://consument.acm.nl/elektriciteit-en-gas/ik-heb-een-probleem/kan-energierekening-niet-betalen) | Energierekening niet betaald |
+| [Ymere — Betalingsregeling aanvragen in MijnYmere (verhuurdersvoorbeeld)](https://www.ymere.nl/mijnymere/) | Betalingsregeling aanvragen in MijnYmere (verhuurdersvoorbeeld) |
+
+Gecontroleerd: gratis gemeentelijke hulp, lokale uitvoeringsverschillen, minnelijk versus wettelijk traject, contact over betaalafspraken, spoed bij ontruiming/afsluiting en juridische hulp bij een huurprocedure. Rechtwijzer is van de Raad voor Rechtsbijstand. De term dagvaarding is toegankelijk omschreven; er is geen universele reactietermijn toegevoegd. ACM is alleen gebruikt voor stroom/gas en het sturen van schuldhulpbewijs, zonder die bescherming te veralgemenen naar andere schulden. Ymere is de primaire schuldeisersbron voor een herkenbaar aanvraagvoorbeeld; geen recht op dezelfde regeling bij andere verhuurders gesteld. Overzicht maken, haalbaar voorstellen en bevestiging bewaren zijn praktische suggesties.
+
+### Brandveilig wonen: rookmelders en koolmonoxidemelders
+
+Doel `brandveilig-wonen-in-een-kamer-of-huurwoning`; `huishouden-en-veiligheid` / `veilig-en-gezond`.
+
+| Geopende primaire bron | Rol in de controle |
+| --- | --- |
+| [Rijksoverheid — Verplichte rookmelders](https://www.rijksoverheid.nl/themas/bouwen-en-wonen/bouwregelgeving/vraag-en-antwoord/gezonde-en-veilige-leefomgeving/hoeveel-rookmelders-moet-ik-in-mijn-huis-hebben) | Verplichte rookmelders |
+| [Brandweer — Rookmelders, plaatsing en onderhoud](https://www.brandweer.nl/onderwerpen/rookmelders/) | Rookmelders, plaatsing en onderhoud |
+| [Informatiepunt Leefomgeving — Brandmeldinstallaties en rookmelders (pdf)](https://iplo.nl/publish/pages/245968/brandmeldinstallatie-ontruimingsalarminstallatie-en-rookmelders-september-2024.pdf) | Brandmeldinstallaties en rookmelders (pdf) |
+| [Informatiepunt Leefomgeving — Zorgplicht voor bouwwerkinstallaties](https://iplo.nl/regelgeving/regels-voor-activiteiten/technische-bouwactiviteit/nieuwbouw/rijksregels/bouwwerkinstallaties/) | Zorgplicht voor bouwwerkinstallaties |
+| [Brandweer — Koolmonoxide en handelen bij vergiftiging](https://www.brandweer.nl/onderwerpen/koolmonoxide/) | Koolmonoxide en handelen bij vergiftiging |
+| [Brandweer — Koolmonoxidemelders plaatsen](https://www.brandweer.nl/onderwerpen/koolmonoxidemelder-waar-hang-je-die-op/) | Koolmonoxidemelders plaatsen |
+| [Veiligheidsregio Hollands Midden — Vragen over brandveiligheid](https://www.vrhm.nl/veelgestelde-vragen-over-brandveiligheid) | Vragen over brandveiligheid |
+| [Brandweer — Vluchtplan en handelen bij brand](https://www.brandweer.nl/onderwerpen/vlucht-met-je-vluchtplan/) | Vluchtplan en handelen bij brand |
+| [Ei Electronics — Handleiding Ei650/650i en Ei603TYC (pdf, modelvoorbeeld)](https://producten.hemmink.nl/sitecontent/media/pdf/ei/gebruiksaanwijzing/Gebruiksaanwijzing-Ei650-650i-en-603TYC-SERIES.pdf) | Handleiding Ei650/650i en Ei603TYC (pdf, modelvoorbeeld) |
+| [Ei Electronics — Handleiding Ei207/208 (pdf, modelvoorbeeld)](https://producten.hemmink.nl/sitecontent/media/pdf/ei/gebruiksaanwijzing/Gebruiksaanwijzing-Ei207-en-Ei208.pdf) | Handleiding Ei207/208 (pdf, modelvoorbeeld) |
+
+Gecontroleerd: rook versus CO, rookmelderplicht en verhuurderstaak, CO als veiligheidsadvies zonder algemene woningplicht, bouwkundige uitzonderingen bij kamergewijze verhuur, gedeelde systemen en batterijzorgplicht. IPLO-pdf hoofdstukken 4 en 6 zijn gelezen; een kamergebouw krijgt geen universeel ontwerp op basis van één melder per verdieping. Brandweeradvies voor vlak/schuin plafond, afstanden, bronruimte versus ademhoogte en signalering is gelezen. De modelhandleidingen zijn op de primaire fabrikant-/importeurwebsite geopend: Ei650-serie maandelijkse knoppentest (p. 5 en 15), Ei207/208 idealiter wekelijks (p. 20). Geen universeel testinterval of merkaanbeveling afgeleid. Bij afwijkende CO-plaatsingsinstructies verwijst het artikel overeenkomstig de Brandweer naar de leverancier. Noodstappen volgen de Brandweer, niet de afwijkende volgorde in een producthandleiding: huisgenoten waarschuwen, naar buiten, 112 bij CO; veilig vluchten/deuren sluiten en 112 bij brand. Geen instructies om binnen te blijven voor onderzoek of eerst een toestel uit te schakelen.
+
+### Begrenzing en behoud
+
+Geen verificatieblokkade bleef open binnen de gepubliceerde uitleg. Individuele beslissingen, huurcontracten, meteropstellingen en gebouwontwerpen blijven beoordeling van de bevoegde partij vragen. De artikelen leggen uit welke gegevens en routes daarvoor nodig zijn. Er zijn geen persoonlijke toeslagberekeningen uitgevoerd, aanvragen ingediend of garanties gegeven over schuldhulp, betaalregelingen of veiligheid.
+
+De bij deze controle gevonden oude Vitens-incassopagina is gelezen maar niet als algemene bron voor afsluitrechten gebruikt: de nieuwe betaalhulp gebruikt actuele publieke routes en Ymere als beperkt schuldeisersvoorbeeld. De volledige incassoprocedure, bedragen en afsluitclaims van die pagina zijn niet overgenomen. De Ei-producthandleidingen onderbouwen modelgebruik en onderhoud; de noodinstructies zijn ontleend aan de officiële Brandweerpagina's. De Ei650-handleiding is bereikbaar via de actuele productpagina van Ei Electronics; het jaartal van een zoekresultaat is niet als verificatiedatum overgenomen.
+
+Het bestaande wijzigingsartikel heeft uitsluitend een contextlink gekregen in plaats van de aankondiging van een toekomstig artikel. De eerdere datum `2026-10-23` en alle bronmetadata blijven behouden; dit is geen hercontrole van de volledige oude tekst. De overige zeventien bestaande bestanden blijven ongewijzigd. Ook categorieën, ankers, schema, template en exportinstellingen zijn behouden.
+
+Voortgang: **35/78 oorspronkelijke vragen afgerond, 43 gepland of gedeeltelijk**; nieuw EWI-07, GW-10 en HV-04. **4/4 aanvullende toeslagvragen afgerond**, met TOES-04 als nieuwe afronding. Alle 82 ID's blijven traceerbaar bij 53 artikeldoelen. De site bevat nu 22 gepubliceerde artikelen en geen Markdown-concepten. De volgende aanbevolen batch staat in het contentplan: HV-05/HV-06, EWI-05, GW-07 en uitbreiding AA-03.
+
+### Validatie batch 4
+
+- `npm run lint`: geslaagd, exitcode 0.
+- `npm run typecheck`: geslaagd, exitcode 0.
+- `npm run build`: geslaagd, exitcode 0. 33 gegenereerde pagina's inclusief frameworkvarianten, met alle 22 artikelroutes en zeven categoriepagina's. De laatste aanvulling over een gang op de vluchtverdieping staat aantoonbaar in de productie-export.
+- Alle 82 ID-mappings zijn vergeleken met de beginsituatie en exact behouden; de statussen tellen programmatisch op tot 35 oorspronkelijke en vier aanvullende afgeronde vragen. Het inventarisbestand zelf is ongewijzigd.
+- Behoud gecontroleerd met hashes: zeventien bestaande artikelen exact gelijk. De bronmetadata en datum van het bestaande wijzigingsartikel zijn gelijk gebleven; alleen de aangekondigde vervolggids is vervangen door een echte contextlink. De vier nieuwe artikelen hebben geldige metadata en `reviewedAt: "2026-10-26"`.
+- Alle interne artikellinks in Markdown hebben een bestaand doel; alle externe bronlinks in de teksten staan ook in hun bronmetadata. Geen nieuwe dependencies, bezoekersfuncties of technische routewijzigingen.
+- HTML-export: alle 269 interne linkverwijzingen lossen op, inclusief ankers. Publicatie, categorieplaatsing, categoriebroodkruimels, controledatums en retourankers zijn voor alle 22 artikelen gecontroleerd. De eerder lege sectie Water en internet verschijnt op het bestaande anker `water-en-internet`. Een onbekende categorie krijgt geen gegenereerde route.
+- Browser: alle vier nieuwe artikelen via hun categorie geopend op mobiel 390 × 844, zonder horizontale pagina-overloop (inhoud 375 px). Ook desktopweergave bekeken, waaronder de lange veiligheids- en toeslagtekst en bronnen/teruglink; toeslagen op 1440 × 900. Titels, beschrijvingen en broodkruimels blijven leesbaar in de bestaande vormgeving.
+- Alle vier retourlinks daadwerkelijk gevolgd naar hun categorieankers: `veilig-en-gezond`, `water-en-internet`, `woonkosten` en `toeslagen`. Contextnavigatie afrekening → wijzigingen → afrekening is doorlopen. Overige contextlinks zijn in Markdown en de export gecontroleerd.
+- Geen formele financiële aanvraag, betaling of noodoproep uitgevoerd. Browsercontroles zijn navigatie- en leesbaarheidscontroles; geen certificering van een concrete woning of een test van persoonlijke dienstverlening.
